@@ -1,0 +1,634 @@
+{
+    "Pokémon": {
+        "Red/Blue": { 
+            "Blubasaur": {
+                "eng": "Blubasaur",
+                "jap": "フシギダネ - Fushigidane",
+                "id": "#001",
+                "image": "https://drive.google.com/uc?id=12-VkKOI7ADXD6Nam1R0IW4QlbcSLvea1"
+            },
+            "Ivysaur": {
+                "eng": "Ivysaur",
+                "jap": "フシギソウ - Fushigisou",
+                "id": "#002",
+                "image": "https://drive.google.com/uc?id=1AA8s1d3V7s3UVVVZhXCULCg5oNde3IVM"
+            },
+            "Venusaur": {
+                "eng": "Venusaur",
+                "jap": "フシギバナ - Fushigibana",
+                "id": "#003",
+                "image": "https://drive.google.com/uc?id=1vbFyXI2itDySDu4Je2xFhZuhUbRCTayJ"
+            },
+            "Charmander": {
+                "eng": "Charmander",
+                "jap": "ヒトカゲ - Hitokage",
+                "id": "#004",
+                "image": "https://drive.google.com/uc?id=1vbFyXI2itDySDu4Je2xFhZuhUbRCTayJ"
+            },
+            "Charmeleon": {
+                "eng": "Charmander",
+                "jap": "リザード - Lizardo",
+                "id": "#005",
+                "image": "https://drive.google.com/uc?id=17a8P92ynsnC5ktLHnmHZm3ZLMVVYJlrU"
+            },
+            "Charizard": {
+                "eng": "Charizard",
+                "jap": "リザードン - Lizardon",
+                "id": "#006",
+                "image": "https://drive.google.com/uc?id=15LmyACYpCXwXwJRH7VvV7NKb8h61UCTx"
+            },
+            "Squirtle": {
+                "eng": "Squirtle",
+                "jap": "ゼニガメ - Zenigame",
+                "id": "#007",
+                "image": "https://drive.google.com/uc?id=1fWOmhDJ_7twiMSvn93DeBPhW4wwx4bl5"
+            },
+            "Wartortle": {
+                "eng": "Wartortle",
+                "jap": "カメール - Kameil",
+                "id": "#008",
+                "image": "https://drive.google.com/uc?id=1PKdUjRDl5yRviEFuP7v917jL0J9BuExJ"
+            },
+            "Blastoise": {
+                "eng": "Blastoise",
+                "jap": "カメックス - Kamex",
+                "id": "#009",
+                "image": "https://drive.google.com/uc?id=1tr9b-rf4cf9Vt19bQSrs1U-UhCCAnmEo"
+            },
+            "Caterpie": {
+                "eng": "Caterpie",
+                "jap": "キャタピー - Caterpie",
+                "id": "#010",
+                "image": "https://drive.google.com/uc?id=1gv-BBwxkDyzCyUrYs0sSI-ZdEyRKOMgM"
+            },
+            "Metapod": {
+                "eng": "Metapod",
+                "jap": "トランセル - Transel",
+                "id": "#011",
+                "image": "https://drive.google.com/uc?id=1WYks3i4PCu_xLhwUoCu9ZuCmTEcj2HaG"
+            },
+            "Butterfree": {
+                "eng": "Butterfree",
+                "jap": "バタフリー - Butterfree",
+                "id": "#012",
+                "image": "https://drive.google.com/uc?id=1DakklEibaWaCKcjAyeGrOQKDJ5g4tstj"
+            },
+            "Weedle": {
+                "eng": "Weedle",
+                "jap": "ビードル - Beedle",
+                "id": "#013",
+                "image": "https://drive.google.com/uc?id=1JqLluAm0jTvP6OvQBVeA4Y057HROW0ym"
+            },
+            "Kakuna": {
+                "eng": "Kakuna",
+                "jap": "コクーン - Cocoon",
+                "id": "#014",
+                "image": "https://drive.google.com/uc?id=1a1Qvq0GUeQL3p6xBfTUDReFo6C4Q8FyB"
+            },
+            "Beedrill": {
+                "eng": "Beedrill",
+                "jap": "スピアー - Spear",
+                "id": "#015",
+                "image": "https://drive.google.com/uc?id=1FZa-Lt1L-uHwoK58Tbatd9BoPgfXFJEM"
+            },
+            "Pidgey": {
+                "eng": "Pidgey",
+                "jap": "ポッポ - Poppo",
+                "id": "#016",
+                "image": "https://drive.google.com/uc?id=17nZwmfM42PNGexNHIvFdttUA9hNMZq70"
+            },
+            "Pidgeotto": {
+                "eng": "Pidgeotto",
+                "jap": "ピジョン - Pigeon",
+                "id": "#017",
+                "image": "https://drive.google.com/uc?id=166BDeUytiBnaujg7W7rNEKl5SNx80W3U"
+            },
+            "Pidgeot": {
+                "eng": "Pidgeot",
+                "jap": "ピジョット - Pigeot",
+                "id": "#018",
+                "image": "https://drive.google.com/uc?id=1ZduZWTL2TtwefoSY4RLHxvYYpnPztJ3K"
+            },
+            "Rattata": {
+                "eng": "Rattata",
+                "jap": "コラッタ - Koratta",
+                "id": "#019",
+                "image": "https://drive.google.com/uc?id=1rK7fY_yy04y3JxccoMiD6OWyKBrGobXz"
+            },
+            "Raticate": {
+                "eng": "Raticate",
+                "jap": "ラッタ - Ratta",
+                "id": "#020",
+                "image": "https://drive.google.com/uc?id=1vy3YPyWA_IjGDNxi0d6P7GYZxLccS0EC"
+            },
+            "Spearow": {
+                "eng": "Spearow",
+                "jap": "オニスズメ - Onisuzume",
+                "id": "#021",
+                "image": "https://drive.google.com/uc?id=1XY1DymN4WYHM_FQitR64ZcEQYD2aNjvm"
+            },
+            "Fearow": {
+                "eng": "Fearow",
+                "jap": "オニスズメ - Onidrill",
+                "id": "#022",
+                "image": "https://drive.google.com/uc?id=1Zpq3S5lb11jSKDF6EEOM7PJpGiyP8ZSI"
+            },
+            "Ekans": {
+                "eng": "Ekans",
+                "jap": "アーボ - Arbo",
+                "id": "#023",
+                "image": "https://drive.google.com/uc?id=1jj4S0QdMyFbVZGuJeeave9E5Y9eVVf2A"
+            },
+            "Arbok": {
+                "eng": "Arbok",
+                "jap": "アーボック - Arbok",
+                "id": "#024",
+                "image": "https://drive.google.com/uc?id=14nZonBc-qOxUqbOADrEMh5YyRhO0qmrU"
+            },
+            "Pikachu": {
+                "eng": "Pikachu",
+                "jap": "ピカチュウ - Pikachu",
+                "id": "#025",
+                "image": "https://drive.google.com/uc?id=12iWy8scjfE1y6oeANCURpQXtKZWpXFNl"
+            },
+            "Raichu": {
+                "eng": "Raichu",
+                "jap": "ライチュウ - Raichu",
+                "id": "#026",
+                "image": "https://drive.google.com/uc?id=1nPitpXR5zpLox9Dm1pC1h73TxjkE2lU4"
+            },
+            "Sandshrew": {
+                "eng": "Sandshrew",
+                "jap": "サンド - Sand",
+                "id": "#027",
+                "image": "https://drive.google.com/uc?id=10NDW0YMozK2Sv2mYjrrbqYqIY2_yAiz2"
+            },
+            "Sandslash": {
+                "eng": "Sandslash",
+                "jap": "サンドパン - Sandpan",
+                "id": "#028",
+                "image": "https://drive.google.com/uc?id=1CHuVWVOVwFpHn-s5Tu6DkQjCrOBmqTVx"
+            },
+            "Nidoran♀": {
+                "eng": "Nidoran♀",
+                "jap": "ニドラン♀ - Nidoran♀",
+                "id": "#029",
+                "image": "https://drive.google.com/uc?id=1tCh-3ebMfnYBkOXS_TWQUxL6B9Nnxzg7"
+            },
+            "Nidorina": {
+                "eng": "Nidorina",
+                "jap": "ニドリーナ - Nidorina",
+                "id": "#030",
+                "image": "https://drive.google.com/uc?id=13YjqA1jHGpNpjrfXkZcU-nQCpmueGRzo"
+            },
+            "Nidoqueen": {
+                "eng": "Nidoqueen",
+                "jap": "ニドクイン - Nidoqueen",
+                "id": "#031",
+                "image": "https://drive.google.com/uc?id=1DTXo0uc8VvfB5LpmKk1C7ruHS_pTzn5k"
+            },
+            "Nidoran♂": {
+                "eng": "Nidoran♂",
+                "jap": "ニドラン♂ - Nidoran♂",
+                "id": "#032",
+                "image": "https://drive.google.com/uc?id=1UdnNeaBNN5QKuf19YUFafopPXggOrpSi"
+            },
+            "Nidorino": {
+                "eng": "Nidorino",
+                "jap": "ニドリーノ - Nidorino",
+                "id": "#033",
+                "image": "https://drive.google.com/uc?id=1CzD4smwjlXZLD87cUC7ejsbtnI_ImA_2"
+            },
+            "Nidoking": {
+                "eng": "Nidoking",
+                "jap": "ニドキング - Nidoking",
+                "id": "#034",
+                "image": "https://drive.google.com/uc?id=13O4ahiJLekz6Mt52MHy7f-zXrr9y_Aw9"
+            },
+            "Clefairy": {
+                "eng": "Clefairy",
+                "jap": "ピッピ - Pippi",
+                "id": "#035",
+                "image": "https://drive.google.com/uc?id=1jsBbzfAXPq0BU_p1CKcn6z8Vo2oh2eC5"
+            },
+            "Clefable": {
+                "eng": "Clefable",
+                "jap": "ピクシー - Clefable",
+                "id": "#036",
+                "image": "https://drive.google.com/uc?id=1l0NYUEvfU0WXfHjgnHj2GtOiJkB5t9Cm"
+            },
+            "Vulpix": {
+                "eng": "Vulpix",
+                "jap": "ロコン - Rokon",
+                "id": "#037",
+                "image": "https://drive.google.com/uc?id=1WFn9DDCw_Avg711vGilUY4w2NmXlQvDR"
+            },
+            "Ninetales": {
+                "eng": "Ninetales",
+                "jap": "キュウコン - Kyukon",
+                "id": "#038",
+                "image": "https://drive.google.com/uc?id=1cvNLdoJxoYvz_XRO8Wjl0wSicB16OSoO"
+            },
+            "Jigglypuff": {
+                "eng": "Jigglypuff",
+                "jap": "プリン - Purin",
+                "id": "#039",
+                "image": "https://drive.google.com/uc?id=1HbCc3Y5tvowef9gnH8WHln_zAcGa0tke"
+            },
+            "Wigglytuff": {
+                "eng": "Wigglytuff",
+                "jap": "プクリン - Pukurin",
+                "id": "#040",
+                "image": "https://drive.google.com/uc?id=1w3M3avfsOFb4wK7D1xIAgEqVezPAFd41"
+            },
+            "Zubat": {
+                "eng": "Zubat",
+                "jap": "ズバット - Zubat",
+                "id": "#041",
+                "image": "https://drive.google.com/uc?id=1mzlSUG9bkL0PUF0QCGabf5I22cB1d_Ho"
+            },
+            "Golbat": {
+                "eng": "Golbat",
+                "jap": "ゴルバット - Golbat",
+                "id": "#042",
+                "image": "https://drive.google.com/uc?id=163BIDfIIxgdAFS07tK05OZ66ZEvSPg4-"
+            },
+            "Oddish": {
+                "eng": "Oddish",
+                "jap": "ナゾノクサ - Nazonokusa",
+                "id": "#043",
+                "image": "https://drive.google.com/uc?id=14SDqlneVIYFN8SVgsbq0qO6SRsbQl3z7"
+            },
+            "Gloom": {
+                "eng": "Gloom",
+                "jap": "クサイハナ - Kusaihana",
+                "id": "#044",
+                "image": "https://drive.google.com/uc?id=1IVl4fAORKySW7vzKN_gsG6LF5byjI5r6"
+            },
+            "Vileplume": {
+                "eng": "Vileplume",
+                "jap": "ラフレシア - Ruffresia",
+                "id": "#045",
+                "image": "https://drive.google.com/uc?id=1RXQYgF34-iSZQyIQ9rZfvf0poveaZ9Z2"
+            },
+            "Paras": {
+                "eng": "Paras",
+                "jap": "パラス - Paras",
+                "id": "#046",
+                "image": "https://drive.google.com/uc?id=1TRATJajVbE-p-k0UUh--H5ZA1A5bsVfS"
+            },
+            "Parasect": {
+                "eng": "Parasect",
+                "jap": "パラセクト - Parasect",
+                "id": "#047",
+                "image": "https://drive.google.com/uc?id=1VwOlwokWYf4eG4lEXaDp2SNzlMSKETzb"
+            },
+            "Venonat": {
+                "eng": "Venonat",
+                "jap": "コンパン - Kongpang",
+                "id": "#048",
+                "image": "https://drive.google.com/uc?id=1KhBM3nuOdECxTaRRfl-QlEyq6y8SlB_g"
+            },
+            "Venomoth": {
+                "eng": "Venomoth",
+                "jap": "モルフォン - Morphon",
+                "id": "#049",
+                "image": "https://drive.google.com/uc?id=1BiS5LhzpZ86Ya9G2rYDcDOyLDOpZih7N"
+            },
+            "Diglett": {
+                "eng": "Diglett",
+                "jap": "ディグダ - Digda",
+                "id": "#050",
+                "image": "https://drive.google.com/uc?id=1mWWSwrTPmoece27ojwX7ioBTIqMz9dvb"
+            },
+            "Dugtrio": {
+                "eng": "Dugtrio",
+                "jap": "ダグトリオ - Dugtrio",
+                "id": "#051",
+                "image": "https://drive.google.com/uc?id=1uxrH1ZRiNJ4G2iWYsDyCp1GUW9ZLU40W"
+            },
+            "Meowth": {
+                "eng": "Meowth",
+                "jap": "ニャース - Nyarth",
+                "id": "#052",
+                "image": "https://drive.google.com/uc?id=1BKrUCcoOt7EiNsH3xMeas7S2KjDt5DsP"
+            },
+            "Persian": {
+                "eng": "Persian",
+                "jap": "ペルシアン - Persian",
+                "id": "#053",
+                "image": "https://drive.google.com/uc?id=1bcFSA5J307XBu4kaOwZeFyhnGORUVnyX"
+            },
+            "Psyduck": {
+                "eng": "Psyduck",
+                "jap": "コダック - Psyduck",
+                "id": "#054",
+                "image": "https://drive.google.com/uc?id=1AajO7MaYOt1S-MxsQhAAwNsqmLURWs8y"
+            },
+            "Golduck": {
+                "eng": "Golduck",
+                "jap": "ゴルダック - Golduck",
+                "id": "#055",
+                "image": "https://drive.google.com/uc?id=15ULNDrBaYmsfto7IhLRVm4ChBCcB0uft"
+            },
+            "Mankey": {
+                "eng": "Mankey",
+                "jap": "マンキー - Mankey",
+                "id": "#056",
+                "image": "https://drive.google.com/uc?id=1XoBUptcjpNFMxuWkLQosqgVQ5aFTp6We"
+            },
+            "Primeape": {
+                "eng": "Primeape",
+                "jap": "オコリザル - Okorizaru",
+                "id": "#057",
+                "image": "https://drive.google.com/uc?id=1Z6SMZHVQnKbqnSf6Ct6LJhLkV2tDkw26"
+            },
+            "Growlithe": {
+                "eng": "Growlithe",
+                "jap": "ガーディ - Gardie",
+                "id": "#058",
+                "image": "https://drive.google.com/uc?id=1OHwvVKS05nDte9OXhnXkbMsSf9T7LorI"
+            },
+            "Arcanine": {
+                "eng": "Arcanine",
+                "jap": "ウインディ - Windie",
+                "id": "#059",
+                "image": "https://drive.google.com/uc?id=1fI3Gy3M1kkMXSWU1-jN1ihxa-NCQt5Pu"
+            },
+            "Poliwag": {
+                "eng": "Poliwag",
+                "jap": "ニョロモ - Nyoromo",
+                "id": "#060",
+                "image": "https://drive.google.com/uc?id=1QFUiWnAKxuEEb1sVf8ILIg4yXumgGF86"
+            },
+            "Poliwhirl": {
+                "eng": "Poliwhirl",
+                "jap": "ニョロゾ - Nyorozo",
+                "id": "#061",
+                "image": "https://drive.google.com/uc?id=1uUWvGnmnLs5ynW-MPbBvetyKe9SO0xOg"
+            },
+            "Poliwrath": {
+                "eng": "Poliwrath",
+                "jap": "ニョロボン - Nyorobon",
+                "id": "#062",
+                "image": "https://drive.google.com/uc?id=10ijA5ptBQi7Bmff092RNFdUiQty1FpD2"
+            },
+            "Abra": {
+                "eng": "Abra",
+                "jap": "ケーシィ - Casey",
+                "id": "#063",
+                "image": "https://drive.google.com/uc?id=18bCC0YKAvnIjaHI1e3ywJjaBX4GHTODF"
+            },
+            "Kadabra": {
+                "eng": "Kadabra",
+                "jap": "ユンゲラー - Yungerer",
+                "id": "#064",
+                "image": "https://drive.google.com/uc?id=1nrLURBzhHMIXXPBRKKRY9xCeJRIlI6Mn"
+            },
+            "Alakazam": {
+                "eng": "Alakazam",
+                "jap": "フーディン - Foodin",
+                "id": "#065",
+                "image": "https://drive.google.com/uc?id=1vdr5nDc9Dw4DvszR6HP_V1Rgh5smnnH8"
+            },
+            "Machop": {
+                "eng": "Machop",
+                "jap": "ワンリキー - Wanriky",
+                "id": "#066",
+                "image": "https://drive.google.com/uc?id=1IxfzL_e-ZWCTYNJdETh8nZAYAevSYg74"
+            },
+            "Machoke": {
+                "eng": "Machoke",
+                "jap": "ゴーリキー - Goriky",
+                "id": "#067",
+                "image": "https://drive.google.com/uc?id=1gmw_imV8Q6xrzzh7s4E3Lflku4F8d6u_"
+            },
+            "Machamp": {
+                "eng": "Machamp",
+                "jap": "カイリキー - Kairiky",
+                "id": "#068",
+                "image": "https://drive.google.com/uc?id=16vB0cTqrYqlPO0h8Xn_CTxgdUHzmnjMH"
+            },
+            "Bellsprout": {
+                "eng": "Bellsprout",
+                "jap": "マダツボミ - Madatsubomi",
+                "id": "#069",
+                "image": "https://drive.google.com/uc?id=13DcV2Yb46VLhHwBNebE9dX-nJR-WgM0z"
+            },
+            "Weepinbell": {
+                "eng": "Weepinbell",
+                "jap": "ウツドン - Utsudon",
+                "id": "#070",
+                "image": "https://drive.google.com/uc?id=1SYuriFw7JzOYBBKt9dfHuVZSwPTlnarC"
+            },
+            "Victreebel": {
+                "eng": "Victreebel",
+                "jap": "ウツボット - Utsubot",
+                "id": "#071",
+                "image": "https://drive.google.com/uc?id=1XHlH3H-qfYWtCpET3aOcLfSEmwzjU-gl"
+            },
+            "Tentacool": {
+                "eng": "Tentacool",
+                "jap": "メノクラゲ - Menokurage",
+                "id": "#072",
+                "image": "https://drive.google.com/uc?id=1tb5d5w7w47VfiT3voAvuLCh5zyH8Ut2m"
+            },
+            "Tentacruel": {
+                "eng": "Tentacruel",
+                "jap": "ドククラゲ - Dokukurage",
+                "id": "#073",
+                "image": "https://drive.google.com/uc?id=1e-CjPcNzbkqhZBMP9P4WhUCXVD3i-fUZ"
+            },
+            "Geodude": {
+                "eng": "Geodude",
+                "jap": "イシツブテ - Isitsubute",
+                "id": "#074",
+                "image": "https://drive.google.com/uc?id=1YWYe71d8nbUAFPBi36FC9JQ1SRmN91mX"
+            },
+            "Graveler": {
+                "eng": "Graveler",
+                "jap": "ゴローン - Golone",
+                "id": "#075",
+                "image": "https://drive.google.com/uc?id=1yoQ-K37U9ZhbfM57zSH5KR61ziyayRFs"
+            },
+            "Golem": {
+                "eng": "Golem",
+                "jap": "ゴローニャ - Golonya",
+                "id": "#076",
+                "image": "https://drive.google.com/uc?id=127v1YN09fInOh284TOpu2zzxEHBZRjio"
+            },
+            "Ponyta": {
+                "eng": "Ponyta",
+                "jap": "ポニータ - Ponyta",
+                "id": "#077",
+                "image": "https://drive.google.com/uc?id=1UlUbdxZHnxuQ2MR9QhA5xZgEP0Vtqbof"
+            },
+            "Rapidash": {
+                "eng": "Rapidash",
+                "jap": "ギャロップ - Gallop",
+                "id": "#078",
+                "image": "https://drive.google.com/uc?id=1hB4R83weianoGk3e_vxIORel5sz6GEDs"
+            },
+            "Slowpoke": {
+                "eng": "Slowpoke",
+                "jap": "ヤドン - Yadon",
+                "id": "#079",
+                "image": "https://drive.google.com/uc?id=1shdtcGrhFN2aets6sHEN2_rO7cJINT15"
+            },
+            "Slowbro": {
+                "eng": "Slowbro",
+                "jap": "ヤドラン - Yadoran",
+                "id": "#080",
+                "image": "https://drive.google.com/uc?id=1n7x_NJYAOOSI9XuOAdBvYSayDMWzjEY1"
+            },
+            "Magnemite": {
+                "eng": "Magnemite",
+                "jap": "コイル - Coil",
+                "id": "#081",
+                "image": "https://drive.google.com/uc?id=1OzA3ubeX0CxzlyFGsRn841JmRQnnE8fc"
+            },
+            "Magneton": {
+                "eng": "Magneton",
+                "jap": "レアコイル - Rarecoil",
+                "id": "#082",
+                "image": "https://drive.google.com/uc?id=1S8aH9nUVaGhBBk8u_LQk-696Iw6lrleW"
+            },
+            "Farfetch'd": {
+                "eng": "Farfetch'd",
+                "jap": "カモネギ - Kamonegi",
+                "id": "#083",
+                "image": "https://drive.google.com/uc?id=1yHUDYeXND3yLCdF2OoqLB8htLhoQzj9W"
+            },
+            "Doduo": {
+                "eng": "Doduo",
+                "jap": "ドードー - Dodo",
+                "id": "#084",
+                "image": "https://drive.google.com/uc?id=1Wk0fEYMaG7EZrj3c-piCcMO6dxJysdXU"
+            },
+            "Dodrio": {
+                "eng": "Dodrio",
+                "jap": "ドードリオ - Dodorio",
+                "id": "#085",
+                "image": "https://drive.google.com/uc?id=14PrE2l714GCPICpLT2R8zY6vUAZR5_hP"
+            },
+            "Seel": {
+                "eng": "Seel",
+                "jap": "パウワウ - Pawou",
+                "id": "#086",
+                "image": "https://drive.google.com/uc?id=1qCAH7l5B_c7ayo714RjYF272r1y4bCfD"
+            },
+            "Dewgong": {
+                "eng": "Dewgong",
+                "jap": "ジュゴン - Jugon",
+                "id": "#087",
+                "image": "https://drive.google.com/uc?id=18XLZPc-AYfdAUero5SLB92Kxp_l9NtKF"
+            },
+            "Grimer": {
+                "eng": "Grimer",
+                "jap": "ベトベター - Betbeter",
+                "id": "#088",
+                "image": "https://drive.google.com/uc?id=1hf-ZekVomSI2_AWRoMwYsfYKdK_COeIW"
+            },
+            "Muk": {
+                "eng": "Muk",
+                "jap": "ベトベトン - Betbeton",
+                "id": "#089",
+                "image": "https://drive.google.com/uc?id=15_SowOVCnWpRUEwnQZARIqbwrYGWIhHT"
+            },
+            "Shellder": {
+                "eng": "Shellder",
+                "jap": "シェルダー - Shellder",
+                "id": "#090",
+                "image": "https://drive.google.com/uc?id=1ursz4fHFAQfmNbTnE5gv8o6x_kj94mtq"
+            },
+            "Cloyster": {
+                "eng": "Cloyster",
+                "jap": "パルシェン - Parshen",
+                "id": "#091",
+                "image": "https://drive.google.com/uc?id=1kl3Bybu_rDfOJ-sv5pOMUz5hjvMQcTQz"
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        }
+    }
+}
