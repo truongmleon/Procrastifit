@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -o-pixelated;
+      image-rendering: pixelated;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 1000px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  font-size: 1em;
+  padding: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+
+th {
+  background-color: #f8fcff;
+  border: 2px solid #dddddd;
+  -webkit-box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+td {
+  border: 1px solid #dddddd;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.highlight {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.highlight:hover {
+  background-color: #f8fcff;
+}
+/*# sourceMappingURL=styles.css.map */
