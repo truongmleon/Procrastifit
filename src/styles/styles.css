@@ -19,9 +19,7 @@ img {
       -ms-user-select: none;
           user-select: none;
   pointer-events: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 90%;
   -ms-interpolation-mode: nearest-neighbor;
       image-rendering: -webkit-optimize-contrast;
       image-rendering: -moz-crisp-edges;
@@ -62,6 +60,8 @@ td {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 .highlight {

@@ -2,6 +2,12 @@ const GenOne = () => {
     let data:any = {};
     let elements:any[] = [];
 
+    let ids:string[] = [];
+    let japNames:string[] = [];
+
+    let redAndBlueFront:string[] = [];
+    let redAndBlueBack:string[] = [];
+
     function reqListener (this: any) {
         data = JSON.parse(this.responseText);
     }
@@ -13,15 +19,21 @@ const GenOne = () => {
     
     //Names and ids from all games are the same
     let pokemonNames = Object.keys(data['Pokémon']["Red/Blue"]['Front sprites']);
-    let pokemonAttributes = data['Pokémon']["Red/Blue"]['Front sprites'];
     for (let i = 0; i < pokemonNames.length; i++) {
         //elements.push(<img src={image} alt={pokemonNames[i]}/>)
+        ids.push(data['Pokémon']["Red/Blue"]['Front sprites'][pokemonNames[i]]["id"]);
+        japNames.push(data['Pokémon']["Red/Blue"]['Front sprites'][pokemonNames[i]]['jap']);
+
+        redAndBlueFront.push(data['Pokémon']["Red/Blue"]['Front sprites'][pokemonNames[i]]['image']);
+        redAndBlueBack.push(data['Pokémon']["Red/Blue"]['Back sprites'][pokemonNames[i]]['image']);
+
         elements.push(<tr>
-            <td className='highlight'>{data['Pokémon']["Red/Blue"]['Front sprites'][pokemonNames[i]]["id"]}</td>
+            <td className='highlight'>{ids[i]}</td>
             <td className='highlight'>{pokemonNames[i]}</td>
-            <td className='highlight'>{data['Pokémon']["Red/Blue"]['Front sprites'][pokemonNames[i]]['jap']}</td>
+            <td className='highlight'>{japNames[i]}</td>
             <td>
-                <img draggable="false" src={data['Pokémon']["Red/Blue"]['Front sprites'][pokemonNames[i]]['image']} alt="pokemonNames[i]" />
+            <img draggable="false" src={redAndBlueFront[i]} alt={pokemonNames[i]} />
+                <img draggable="false" src={redAndBlueBack[i]} alt={pokemonNames[i]} />
             </td>
             <td>GB Super (Green)</td>
             <td>GB Super (Yellow)</td>
