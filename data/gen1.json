@@ -1,0 +1,1837 @@
+{
+    "Pokémon": {
+        "Red/Blue": {
+            "Front sprites": {
+                "Blubasaur": {
+                  "eng": "Blubasaur",
+                  "jap": "フシギダネ - Fushigidane",
+                  "id": "#001",
+                  "image": "data/images/Generation One/Red:blue/1.png"
+                },
+                "Ivysaur": {
+                  "eng": "Ivysaur",
+                  "jap": "フシギソウ - Fushigisou",
+                  "id": "#002",
+                  "image": "data/images/Generation One/Red:blue/2.png"
+                },
+                "Venusaur": {
+                  "eng": "Venusaur",
+                  "jap": "フシギバナ - Fushigibana",
+                  "id": "#003",
+                  "image": "data/images/Generation One/Red:blue/3.png"
+                },
+                "Charmander": {
+                  "eng": "Charmander",
+                  "jap": "ヒトカゲ - Hitokage",
+                  "id": "#004",
+                  "image": "data/images/Generation One/Red:blue/4.png"
+                },
+                "Charmeleon": {
+                  "eng": "Charmander",
+                  "jap": "リザード - Lizardo",
+                  "id": "#005",
+                  "image": "data/images/Generation One/Red:blue/5.png"
+                },
+                "Charizard": {
+                  "eng": "Charizard",
+                  "jap": "リザードン - Lizardon",
+                  "id": "#006",
+                  "image": "data/images/Generation One/Red:blue/6.png"
+                },
+                "Squirtle": {
+                  "eng": "Squirtle",
+                  "jap": "ゼニガメ - Zenigame",
+                  "id": "#007",
+                  "image": "data/images/Generation One/Red:blue/7.png"
+                },
+                "Wartortle": {
+                  "eng": "Wartortle",
+                  "jap": "カメール - Kameil",
+                  "id": "#008",
+                  "image": "data/images/Generation One/Red:blue/8.png"
+                },
+                "Blastoise": {
+                  "eng": "Blastoise",
+                  "jap": "カメックス - Kamex",
+                  "id": "#009",
+                  "image": "data/images/Generation One/Red:blue/9.png"
+                },
+                "Caterpie": {
+                  "eng": "Caterpie",
+                  "jap": "キャタピー - Caterpie",
+                  "id": "#010",
+                  "image": "data/images/Generation One/Red:blue/10.png"
+                },
+                "Metapod": {
+                  "eng": "Metapod",
+                  "jap": "トランセル - Transel",
+                  "id": "#011",
+                  "image": "data/images/Generation One/Red:blue/11.png"
+                },
+                "Butterfree": {
+                  "eng": "Butterfree",
+                  "jap": "バタフリー - Butterfree",
+                  "id": "#012",
+                  "image": "data/images/Generation One/Red:blue/12.png"
+                },
+                "Weedle": {
+                  "eng": "Weedle",
+                  "jap": "ビードル - Beedle",
+                  "id": "#013",
+                  "image": "data/images/Generation One/Red:blue/13.png"
+                },
+                "Kakuna": {
+                  "eng": "Kakuna",
+                  "jap": "コクーン - Cocoon",
+                  "id": "#014",
+                  "image": "data/images/Generation One/Red:blue/14.png"
+                },
+                "Beedrill": {
+                  "eng": "Beedrill",
+                  "jap": "スピアー - Spear",
+                  "id": "#015",
+                  "image": "data/images/Generation One/Red:blue/15.png"
+                },
+                "Pidgey": {
+                  "eng": "Pidgey",
+                  "jap": "ポッポ - Poppo",
+                  "id": "#016",
+                  "image": "data/images/Generation One/Red:blue/16.png"
+                },
+                "Pidgeotto": {
+                  "eng": "Pidgeotto",
+                  "jap": "ピジョン - Pigeon",
+                  "id": "#017",
+                  "image": "data/images/Generation One/Red:blue/17.png"
+                },
+                "Pidgeot": {
+                  "eng": "Pidgeot",
+                  "jap": "ピジョット - Pigeot",
+                  "id": "#018",
+                  "image": "data/images/Generation One/Red:blue/18.png"
+                },
+                "Rattata": {
+                  "eng": "Rattata",
+                  "jap": "コラッタ - Koratta",
+                  "id": "#019",
+                  "image": "data/images/Generation One/Red:blue/19.png"
+                },
+                "Raticate": {
+                  "eng": "Raticate",
+                  "jap": "ラッタ - Ratta",
+                  "id": "#020",
+                  "image": "data/images/Generation One/Red:blue/20.png"
+                },
+                "Spearow": {
+                  "eng": "Spearow",
+                  "jap": "オニスズメ - Onisuzume",
+                  "id": "#021",
+                  "image": "data/images/Generation One/Red:blue/21.png"
+                },
+                "Fearow": {
+                  "eng": "Fearow",
+                  "jap": "オニスズメ - Onidrill",
+                  "id": "#022",
+                  "image": "data/images/Generation One/Red:blue/22.png"
+                },
+                "Ekans": {
+                  "eng": "Ekans",
+                  "jap": "アーボ - Arbo",
+                  "id": "#023",
+                  "image": "data/images/Generation One/Red:blue/23.png"
+                },
+                "Arbok": {
+                  "eng": "Arbok",
+                  "jap": "アーボック - Arbok",
+                  "id": "#024",
+                  "image": "data/images/Generation One/Red:blue/24.png"
+                },
+                "Pikachu": {
+                  "eng": "Pikachu",
+                  "jap": "ピカチュウ - Pikachu",
+                  "id": "#025",
+                  "image": "data/images/Generation One/Red:blue/25.png"
+                },
+                "Raichu": {
+                  "eng": "Raichu",
+                  "jap": "ライチュウ - Raichu",
+                  "id": "#026",
+                  "image": "data/images/Generation One/Red:blue/26.png"
+                },
+                "Sandshrew": {
+                  "eng": "Sandshrew",
+                  "jap": "サンド - Sand",
+                  "id": "#027",
+                  "image": "data/images/Generation One/Red:blue/27.png"
+                },
+                "Sandslash": {
+                  "eng": "Sandslash",
+                  "jap": "サンドパン - Sandpan",
+                  "id": "#028",
+                  "image": "data/images/Generation One/Red:blue/28.png"
+                },
+                "Nidoran♀": {
+                  "eng": "Nidoran♀",
+                  "jap": "ニドラン♀ - Nidoran♀",
+                  "id": "#029",
+                  "image": "data/images/Generation One/Red:blue/29.png"
+                },
+                "Nidorina": {
+                  "eng": "Nidorina",
+                  "jap": "ニドリーナ - Nidorina",
+                  "id": "#030",
+                  "image": "data/images/Generation One/Red:blue/30.png"
+                },
+                "Nidoqueen": {
+                  "eng": "Nidoqueen",
+                  "jap": "ニドクイン - Nidoqueen",
+                  "id": "#031",
+                  "image": "data/images/Generation One/Red:blue/31.png"
+                },
+                "Nidoran♂": {
+                  "eng": "Nidoran♂",
+                  "jap": "ニドラン♂ - Nidoran♂",
+                  "id": "#032",
+                  "image": "data/images/Generation One/Red:blue/32.png"
+                },
+                "Nidorino": {
+                  "eng": "Nidorino",
+                  "jap": "ニドリーノ - Nidorino",
+                  "id": "#033",
+                  "image": "data/images/Generation One/Red:blue/33.png"
+                },
+                "Nidoking": {
+                  "eng": "Nidoking",
+                  "jap": "ニドキング - Nidoking",
+                  "id": "#034",
+                  "image": "data/images/Generation One/Red:blue/34.png"
+                },
+                "Clefairy": {
+                  "eng": "Clefairy",
+                  "jap": "ピッピ - Pippi",
+                  "id": "#035",
+                  "image": "data/images/Generation One/Red:blue/35.png"
+                },
+                "Clefable": {
+                  "eng": "Clefable",
+                  "jap": "ピクシー - Clefable",
+                  "id": "#036",
+                  "image": "data/images/Generation One/Red:blue/36.png"
+                },
+                "Vulpix": {
+                  "eng": "Vulpix",
+                  "jap": "ロコン - Rokon",
+                  "id": "#037",
+                  "image": "data/images/Generation One/Red:blue/37.png"
+                },
+                "Ninetales": {
+                  "eng": "Ninetales",
+                  "jap": "キュウコン - Kyukon",
+                  "id": "#038",
+                  "image": "data/images/Generation One/Red:blue/38.png"
+                },
+                "Jigglypuff": {
+                  "eng": "Jigglypuff",
+                  "jap": "プリン - Purin",
+                  "id": "#039",
+                  "image": "data/images/Generation One/Red:blue/39.png"
+                },
+                "Wigglytuff": {
+                  "eng": "Wigglytuff",
+                  "jap": "プクリン - Pukurin",
+                  "id": "#040",
+                  "image": "data/images/Generation One/Red:blue/40.png"
+                },
+                "Zubat": {
+                  "eng": "Zubat",
+                  "jap": "ズバット - Zubat",
+                  "id": "#041",
+                  "image": "data/images/Generation One/Red:blue/41.png"
+                },
+                "Golbat": {
+                  "eng": "Golbat",
+                  "jap": "ゴルバット - Golbat",
+                  "id": "#042",
+                  "image": "data/images/Generation One/Red:blue/42.png"
+                },
+                "Oddish": {
+                  "eng": "Oddish",
+                  "jap": "ナゾノクサ - Nazonokusa",
+                  "id": "#043",
+                  "image": "data/images/Generation One/Red:blue/43.png"
+                },
+                "Gloom": {
+                  "eng": "Gloom",
+                  "jap": "クサイハナ - Kusaihana",
+                  "id": "#044",
+                  "image": "data/images/Generation One/Red:blue/44.png"
+                },
+                "Vileplume": {
+                  "eng": "Vileplume",
+                  "jap": "ラフレシア - Ruffresia",
+                  "id": "#045",
+                  "image": "data/images/Generation One/Red:blue/45.png"
+                },
+                "Paras": {
+                  "eng": "Paras",
+                  "jap": "パラス - Paras",
+                  "id": "#046",
+                  "image": "data/images/Generation One/Red:blue/46.png"
+                },
+                "Parasect": {
+                  "eng": "Parasect",
+                  "jap": "パラセクト - Parasect",
+                  "id": "#047",
+                  "image": "data/images/Generation One/Red:blue/47.png"
+                },
+                "Venonat": {
+                  "eng": "Venonat",
+                  "jap": "コンパン - Kongpang",
+                  "id": "#048",
+                  "image": "data/images/Generation One/Red:blue/48.png"
+                },
+                "Venomoth": {
+                  "eng": "Venomoth",
+                  "jap": "モルフォン - Morphon",
+                  "id": "#049",
+                  "image": "data/images/Generation One/Red:blue/49.png"
+                },
+                "Diglett": {
+                  "eng": "Diglett",
+                  "jap": "ディグダ - Digda",
+                  "id": "#050",
+                  "image": "data/images/Generation One/Red:blue/50.png"
+                },
+                "Dugtrio": {
+                  "eng": "Dugtrio",
+                  "jap": "ダグトリオ - Dugtrio",
+                  "id": "#051",
+                  "image": "data/images/Generation One/Red:blue/51.png"
+                },
+                "Meowth": {
+                  "eng": "Meowth",
+                  "jap": "ニャース - Nyarth",
+                  "id": "#052",
+                  "image": "data/images/Generation One/Red:blue/52.png"
+                },
+                "Persian": {
+                  "eng": "Persian",
+                  "jap": "ペルシアン - Persian",
+                  "id": "#053",
+                  "image": "data/images/Generation One/Red:blue/53.png"
+                },
+                "Psyduck": {
+                  "eng": "Psyduck",
+                  "jap": "コダック - Psyduck",
+                  "id": "#054",
+                  "image": "data/images/Generation One/Red:blue/54.png"
+                },
+                "Golduck": {
+                  "eng": "Golduck",
+                  "jap": "ゴルダック - Golduck",
+                  "id": "#055",
+                  "image": "data/images/Generation One/Red:blue/55.png"
+                },
+                "Mankey": {
+                  "eng": "Mankey",
+                  "jap": "マンキー - Mankey",
+                  "id": "#056",
+                  "image": "data/images/Generation One/Red:blue/56.png"
+                },
+                "Primeape": {
+                  "eng": "Primeape",
+                  "jap": "オコリザル - Okorizaru",
+                  "id": "#057",
+                  "image": "data/images/Generation One/Red:blue/57.png"
+                },
+                "Growlithe": {
+                  "eng": "Growlithe",
+                  "jap": "ガーディ - Gardie",
+                  "id": "#058",
+                  "image": "data/images/Generation One/Red:blue/58.png"
+                },
+                "Arcanine": {
+                  "eng": "Arcanine",
+                  "jap": "ウインディ - Windie",
+                  "id": "#059",
+                  "image": "data/images/Generation One/Red:blue/59.png"
+                },
+                "Poliwag": {
+                  "eng": "Poliwag",
+                  "jap": "ニョロモ - Nyoromo",
+                  "id": "#060",
+                  "image": "data/images/Generation One/Red:blue/60.png"
+                },
+                "Poliwhirl": {
+                  "eng": "Poliwhirl",
+                  "jap": "ニョロゾ - Nyorozo",
+                  "id": "#061",
+                  "image": "data/images/Generation One/Red:blue/61.png"
+                },
+                "Poliwrath": {
+                  "eng": "Poliwrath",
+                  "jap": "ニョロボン - Nyorobon",
+                  "id": "#062",
+                  "image": "data/images/Generation One/Red:blue/62.png"
+                },
+                "Abra": {
+                  "eng": "Abra",
+                  "jap": "ケーシィ - Casey",
+                  "id": "#063",
+                  "image": "data/images/Generation One/Red:blue/63.png"
+                },
+                "Kadabra": {
+                  "eng": "Kadabra",
+                  "jap": "ユンゲラー - Yungerer",
+                  "id": "#064",
+                  "image": "data/images/Generation One/Red:blue/64.png"
+                },
+                "Alakazam": {
+                  "eng": "Alakazam",
+                  "jap": "フーディン - Foodin",
+                  "id": "#065",
+                  "image": "data/images/GenerationOne/Red:blue/65.png"
+                },
+                "Machop": {
+                  "eng": "Machop",
+                  "jap": "ワンリキー - Wanriky",
+                  "id": "#066",
+                  "image": "data/images/Generation One/Red:blue/66.png"
+                },
+                "Machoke": {
+                  "eng": "Machoke",
+                  "jap": "ゴーリキー - Goriky",
+                  "id": "#067",
+                  "image": "data/images/Generation One/Red:blue/67.png"
+                },
+                "Machamp": {
+                  "eng": "Machamp",
+                  "jap": "カイリキー - Kairiky",
+                  "id": "#068",
+                  "image": "data/images/Generation One/Red:blue/68.png"
+                },
+                "Bellsprout": {
+                  "eng": "Bellsprout",
+                  "jap": "マダツボミ - Madatsubomi",
+                  "id": "#069",
+                  "image": "data/images/Generation One/Red:blue/69.png"
+                },
+                "Weepinbell": {
+                  "eng": "Weepinbell",
+                  "jap": "ウツドン - Utsudon",
+                  "id": "#070",
+                  "image": "data/images/Generation One/Red:blue/70.png"
+                },
+                "Victreebel": {
+                  "eng": "Victreebel",
+                  "jap": "ウツボット - Utsubot",
+                  "id": "#071",
+                  "image": "data/images/Generation One/Red:blue/71.png"
+                },
+                "Tentacool": {
+                  "eng": "Tentacool",
+                  "jap": "メノクラゲ - Menokurage",
+                  "id": "#072",
+                  "image": "data/images/Generation One/Red:blue/72.png"
+                },
+                "Tentacruel": {
+                  "eng": "Tentacruel",
+                  "jap": "ドククラゲ - Dokukurage",
+                  "id": "#073",
+                  "image": "data/images/Generation One/Red:blue/73.png"
+                },
+                "Geodude": {
+                  "eng": "Geodude",
+                  "jap": "イシツブテ - Isitsubute",
+                  "id": "#074",
+                  "image": "data/images/Generation One/Red:blue/74.png"
+                },
+                "Graveler": {
+                  "eng": "Graveler",
+                  "jap": "ゴローン - Golone",
+                  "id": "#075",
+                  "image": "data/images/Generation One/Red:blue/75.png"
+                },
+                "Golem": {
+                  "eng": "Golem",
+                  "jap": "ゴローニャ - Golonya",
+                  "id": "#076",
+                  "image": "data/images/Generation One/Red:blue/76.png"
+                },
+                "Ponyta": {
+                  "eng": "Ponyta",
+                  "jap": "ポニータ - Ponyta",
+                  "id": "#077",
+                  "image": "data/images/Generation One/Red:blue/77.png"
+                },
+                "Rapidash": {
+                  "eng": "Rapidash",
+                  "jap": "ギャロップ - Gallop",
+                  "id": "#078",
+                  "image": "data/images/Generation One/Red:blue/78.png"
+                },
+                "Slowpoke": {
+                  "eng": "Slowpoke",
+                  "jap": "ヤドン - Yadon",
+                  "id": "#079",
+                  "image": "data/images/Generation One/Red:blue/79.png"
+                },
+                "Slowbro": {
+                  "eng": "Slowbro",
+                  "jap": "ヤドラン - Yadoran",
+                  "id": "#080",
+                  "image": "data/images/Generation One/Red:blue/80.png"
+                },
+                "Magnemite": {
+                  "eng": "Magnemite",
+                  "jap": "コイル - Coil",
+                  "id": "#081",
+                  "image": "data/images/Generation One/Red:blue/81.png"
+                },
+                "Magneton": {
+                  "eng": "Magneton",
+                  "jap": "レアコイル - Rarecoil",
+                  "id": "#082",
+                  "image": "data/images/Generation One/Red:blue/82.png"
+                },
+                "Farfetch'd": {
+                  "eng": "Farfetch'd",
+                  "jap": "カモネギ - Kamonegi",
+                  "id": "#083",
+                  "image": "data/images/Generation One/Red:blue/83.png"
+                },
+                "Doduo": {
+                  "eng": "Doduo",
+                  "jap": "ドードー - Dodo",
+                  "id": "#084",
+                  "image": "data/images/Generation One/Red:blue/84.png"
+                },
+                "Dodrio": {
+                  "eng": "Dodrio",
+                  "jap": "ドードリオ - Dodorio",
+                  "id": "#085",
+                  "image": "data/images/Generation One/Red:blue/85.png"
+                },
+                "Seel": {
+                  "eng": "Seel",
+                  "jap": "パウワウ - Pawou",
+                  "id": "#086",
+                  "image": "data/images/Generation One/Red:blue/86.png"
+                },
+                "Dewgong": {
+                  "eng": "Dewgong",
+                  "jap": "ジュゴン - Jugon",
+                  "id": "#087",
+                  "image": "data/images/Generation One/Red:blue/87.png"
+                },
+                "Grimer": {
+                  "eng": "Grimer",
+                  "jap": "ベトベター - Betbeter",
+                  "id": "#088",
+                  "image": "data/images/Generation One/Red:blue/88.png"
+                },
+                "Muk": {
+                  "eng": "Muk",
+                  "jap": "ベトベトン - Betbeton",
+                  "id": "#089",
+                  "image": "data/images/Generation One/Red:blue/89.png"
+                },
+                "Shellder": {
+                  "eng": "Shellder",
+                  "jap": "シェルダー - Shellder",
+                  "id": "#090",
+                  "image": "data/images/Generation One/Red:blue/90.png"
+                },
+                "Cloyster": {
+                  "eng": "Cloyster",
+                  "jap": "パルシェン - Parshen",
+                  "id": "#091",
+                  "image": "data/images/Generation One/Red:blue/91.png"
+                },
+                "Gastly": {
+                  "eng": "Gastly",
+                  "jap": "ゴース - Ghos",
+                  "id": "#092",
+                  "image": "data/images/Generation One/Red:blue/92.png"
+                },
+                "Haunter": {
+                  "eng": "Haunter",
+                  "jap": "ゴースト - Ghost",
+                  "id": "#093",
+                  "image": "data/images/Generation One/Red:blue/93.png"
+                },
+                "Gengar": {
+                  "eng": "Gengar",
+                  "jap": "ゲンガー - Gangar",
+                  "id": "#094",
+                  "image": "data/images/Generation One/Red:blue/94.png"
+                },
+                "Onix": {
+                  "eng": "Onix",
+                  "jap": "イワーク - Iwark",
+                  "id": "#095",
+                  "image": "data/images/Generation One/Red:blue/95.png"
+                },
+                "Drowzee": {
+                  "eng": "Drowzee",
+                  "jap": "スリープ - Sleepe",
+                  "id": "#096",
+                  "image": "data/images/Generation One/Red:blue/96.png"
+                },
+                "Hypno": {
+                  "eng": "Hypno",
+                  "jap": "スリーパー - Sleeper",
+                  "id": "#097",
+                  "image": "data/images/Generation One/Red:blue/97.png"
+                },
+                "Krabby": {
+                  "eng": "Krabby",
+                  "jap": "クラブ - Crab",
+                  "id": "#098",
+                  "image": "data/images/Generation One/Red:blue/98.png"
+                },
+                "Kingler": {
+                  "eng": "Kingler",
+                  "jap": "キングラー - Kingler",
+                  "id": "#099",
+                  "image": "data/images/Generation One/Red:blue/99.png"
+                },
+                "Voltorb": {
+                  "eng": "Voltorb",
+                  "jap": "ビリリダマ - Biriridama",
+                  "id": "#100",
+                  "image": "data/images/Generation One/Red:blue/100.png"
+                },
+                "Electrode": {
+                  "eng": "Electrode",
+                  "jap": "マルマイン - Marumine",
+                  "id": "#101",
+                  "image": "data/images/Generation One/Red:blue/101.png"
+                },
+                "Exeggcute": {
+                  "eng": "Exeggcute",
+                  "jap": "タマタマ - Tamatama",
+                  "id": "#102",
+                  "image": "data/images/Generation One/Red:blue/102.png"
+                },
+                "Exeggutor": {
+                  "eng": "Exeggutor",
+                  "jap": "ナッシー - Nassy",
+                  "id": "#103",
+                  "image": "data/images/Generation One/Red:blue/103.png"
+                },
+                "Cubone": {
+                  "eng": "Cubone",
+                  "jap": "カラカラ - Karakara",
+                  "id": "#104",
+                  "image": "data/images/Generation One/Red:blue/104.png"
+                },
+                "Marowak": {
+                  "eng": "Marowak",
+                  "jap": "ガラガラ - Garagara",
+                  "id": "#105",
+                  "image": "data/images/Generation One/Red:blue/105.png"
+                },
+                "Hitmonlee": {
+                  "eng": "Hitmonlee",
+                  "jap": "サワムラー - Sawamular",
+                  "id": "#106",
+                  "image": "data/images/Generation One/Red:blue/106.png"
+                },
+                "Hitmonchan": {
+                  "eng": "Hitmonchan",
+                  "jap": "エビワラー - Ebiwalar",
+                  "id": "#107",
+                  "image": "data/images/Generation One/Red:blue/107.png"
+                },
+                "Lickitung": {
+                  "eng": "Lickitung",
+                  "jap": "ベロリンガ - Beroringa",
+                  "id": "#108",
+                  "image": "data/images/Generation One/Red:blue/108.png"
+                },
+                "Koffing": {
+                  "eng": "Koffing",
+                  "jap": "ドガース - Dogars",
+                  "id": "#109",
+                  "image": "data/images/Generation One/Red:blue/109.png"
+                },
+                "Weezing": {
+                  "eng": "Weezing",
+                  "jap": "マタドガス - Matadogas",
+                  "id": "#110",
+                  "image": "data/images/Generation One/Red:blue/110.png"
+                },
+                "Rhyhorn": {
+                  "eng": "Rhyhorn",
+                  "jap": "サイホーン - Sihorn",
+                  "id": "#111",
+                  "image": "data/images/Generation One/Red:blue/111.png"
+                },
+                "Rhydon": {
+                  "eng": "Rhydon",
+                  "jap": "サイドン - Sidon",
+                  "id": "#112",
+                  "image": "data/images/Generation One/Red:blue/112.png"
+                },
+                "Chansey": {
+                  "eng": "Chansey",
+                  "jap": "ラッキー - Lucky",
+                  "id": "#113",
+                  "image": "data/images/Generation One/Red:blue/113.png"
+                },
+                "Tangela": {
+                  "eng": "Tangela",
+                  "jap": "モンジャラ - Monjara",
+                  "id": "#114",
+                  "image": "data/images/Generation One/Red:blue/114.png"
+                },
+                "Kangaskhan": {
+                  "eng": "Kangaskhan",
+                  "jap": "ガルーラ - Garura",
+                  "id": "#115",
+                  "image": "data/images/Generation One/Red:blue/115.png"
+                },
+                "Horsea": {
+                  "eng": "Horsea",
+                  "jap": "タッツー - Tattu",
+                  "id": "#116",
+                  "image": "data/images/Generation One/Red:blue/116.png"
+                },
+                "Seadra": {
+                  "eng": "Seadra",
+                  "jap": "シードラ - Seadra",
+                  "id": "#117",
+                  "image": "data/images/Generation One/Red:blue/117.png"
+                },
+                "Goldeen": {
+                  "eng": "Goldeen",
+                  "jap": "トサキント - Tosakinto",
+                  "id": "#118",
+                  "image": "data/images/Generation One/Red:blue/118.png"
+                },
+                "Seaking": {
+                  "eng": "Seaking",
+                  "jap": "アズマオウ - Azumao",
+                  "id": "#119",
+                  "image": "data/images/Generation One/Red:blue/119.png"
+                },
+                "Staryu": {
+                  "eng": "Staryu",
+                  "jap": "ヒトデマン - Hitodeman",
+                  "id": "#120",
+                  "image": "data/images/Generation One/Red:blue/120.png"
+                },
+                "Starmie": {
+                  "eng": "Starmie",
+                  "jap": "スターミー - Starmie",
+                  "id": "#121",
+                  "image": "data/images/Generation One/Red:blue/121.png"
+                },
+                "Mr. Mime": {
+                  "eng": "Mr. Mime",
+                  "jap": "バリヤード - Barrierd",
+                  "id": "#122",
+                  "image": "data/images/Generation One/Red:blue/122.png"
+                },
+                "Scyther": {
+                  "eng": "Scyther",
+                  "jap": "ストライク - Strike",
+                  "id": "#123",
+                  "image": "data/images/Generation One/Red:blue/123.png"
+                },
+                "Jynx": {
+                  "eng": "Jynx",
+                  "jap": "ルージュラ - Rougela",
+                  "id": "#124",
+                  "image": "data/images/Generation One/Red:blue/124.png"
+                },
+                "Electabuzz": {
+                  "eng": "Electabuzz",
+                  "jap": "エレブー - Eleboo",
+                  "id": "#125",
+                  "image": "data/images/Generation One/Red:blue/125.png"
+                },
+                "Magmar": {
+                  "eng": "Magmar",
+                  "jap": "ブーバー - Boober",
+                  "id": "#126",
+                  "image": "data/images/Generation One/Red:blue/126.png"
+                },
+                "Pinsir": {
+                  "eng": "Pinsir",
+                  "jap": "カイロス - Kailios",
+                  "id": "#127",
+                  "image": "data/images/Generation One/Red:blue/127.png"
+                },
+                "Tauros": {
+                  "eng": "Tauros",
+                  "jap": "ケンタロス - Kentauros",
+                  "id": "#128",
+                  "image": "data/images/Generation One/Red:blue/128.png"
+                },
+                "Magikarp": {
+                  "eng": "Magikarp",
+                  "jap": "コイキング - Koiking",
+                  "id": "#129",
+                  "image": "data/images/Generation One/Red:blue/129.png"
+                },
+                "Gyarados": {
+                  "eng": "Gyarados",
+                  "jap": "ギャラドス - Gyarados",
+                  "id": "#130",
+                  "image": "data/images/Generation One/Red:blue/130.png"
+                },
+                "Lapras": {
+                  "eng": "Lapras",
+                  "jap": "ラプラス - Laplace",
+                  "id": "#131",
+                  "image": "data/images/Generation One/Red:blue/131.png"
+                },
+                "Ditto": {
+                  "eng": "Ditto",
+                  "jap": "メタモン - Metamon",
+                  "id": "#132",
+                  "image": "data/images/Generation One/Red:blue/132.png"
+                },
+                "Eevee": {
+                  "eng": "Eevee",
+                  "jap": "イーブイ - Eievui",
+                  "id": "#133",
+                  "image": "data/images/Generation One/Red:blue/133.png"
+                },
+                "Vaporeon": {
+                  "eng": "Vaporeon",
+                  "jap": "シャワーズ - Showers",
+                  "id": "#134",
+                  "image": "data/images/Generation One/Red:blue/134.png"
+                },
+                "Jolteon": {
+                  "eng": "Jolteon",
+                  "jap": "サンダース - Thunders",
+                  "id": "#135",
+                  "image": "data/images/Generation One/Red:blue/135.png"
+                },
+                "Flareon": {
+                  "eng": "Flareon",
+                  "jap": "ブースター - Booster",
+                  "id": "#136",
+                  "image": "data/images/Generation One/Red:blue/136.png"
+                },
+                "Porygon": {
+                  "eng": "Porygon",
+                  "jap": "ポリゴン - Porygon",
+                  "id": "#137",
+                  "image": "data/images/Generation One/Red:blue/137.png"
+                },
+                "Omanyte": {
+                  "eng": "Omanyte",
+                  "jap": "オムナイト - Omnite",
+                  "id": "#138",
+                  "image": "data/images/Generation One/Red:blue/138.png"
+                },
+                "Omastar": {
+                  "eng": "Omastar",
+                  "jap": "オムスター - Omstar",
+                  "id": "#139",
+                  "image": "data/images/Generation One/Red:blue/139.png"
+                },
+                "Kabuto": {
+                  "eng": "Kabuto",
+                  "jap": "カブト - Kabuto",
+                  "id": "#140",
+                  "image": "data/images/Generation One/Red:blue/140.png"
+                },
+                "Kabutops": {
+                  "eng": "Kabutops",
+                  "jap": "カブトプス - Kabutops",
+                  "id": "#141",
+                  "image": "data/images/Generation One/Red:blue/141.png"
+                },
+                "Aerodactyl": {
+                  "eng": "Aerodactyl",
+                  "jap": "プテラ - Ptera",
+                  "id": "#142",
+                  "image": "data/images/Generation One/Red:blue/142.png"
+                },
+                "Snorlax": {
+                  "eng": "Snorlax",
+                  "jap": "カビゴン - Kabigon",
+                  "id": "#143",
+                  "image": "data/images/Generation One/Red:blue/143.png"
+                },
+                "Articuno": {
+                  "eng": "Articuno",
+                  "jap": "プクリン - Freezer",
+                  "id": "#144",
+                  "image": "data/images/Generation One/Red:blue/144.png"
+                },
+                "Zapdos": {
+                  "eng": "Zapdos",
+                  "jap": "サンダー - Thunder",
+                  "id": "#145",
+                  "image": "data/images/Generation One/Red:blue/145.png"
+                },
+                "Moltres": {
+                  "eng": "Moltres",
+                  "jap": "プクリン - Fire",
+                  "id": "#146",
+                  "image": "data/images/Generation One/Red:blue/146.png"
+                },
+                "Dratini": {
+                  "eng": "Dratini",
+                  "jap": "ミニリュウ - Miniryu",
+                  "id": "#147",
+                  "image": "data/images/Generation One/Red:blue/147.png"
+                },
+                "Dragonair": {
+                  "eng": "Dragonair",
+                  "jap": "ハクリュー - Hakuryu",
+                  "id": "#148",
+                  "image": "data/images/Generation One/Red:blue/148.png"
+                },
+                "Dragonite": {
+                  "eng": "Dragonite",
+                  "jap": "カイリュー - Kairyu",
+                  "id": "#149",
+                  "image": "data/images/Generation One/Red:blue/149.png"
+                },
+                "Mewtwo": {
+                  "eng": "Mewtwo",
+                  "jap": "ミュウツー - Mewtwo",
+                  "id": "#150",
+                  "image": "data/images/Generation One/Red:blue/150.png"
+                },
+                "Mew": {
+                  "eng": "Mew",
+                  "jap": "ミュウ - Mew",
+                  "id": "#151",
+                  "image": "data/images/Generation One/Red:blue/151.png"
+                }
+              },
+            "Back sprites": {
+                "Blubasaur": {
+                  "eng": "Blubasaur",
+                  "jap": "フシギダネ - Fushigidane",
+                  "id": "#001",
+                  "image": "data/images/Generation One/Red:blue/Back/1.png"
+                },
+                "Ivysaur": {
+                  "eng": "Ivysaur",
+                  "jap": "フシギソウ - Fushigisou",
+                  "id": "#002",
+                  "image": "data/images/Generation One/Red:blue/Back/2.png"
+                },
+                "Venusaur": {
+                  "eng": "Venusaur",
+                  "jap": "フシギバナ - Fushigibana",
+                  "id": "#003",
+                  "image": "data/images/Generation One/Red:blue/Back/3.png"
+                },
+                "Charmander": {
+                  "eng": "Charmander",
+                  "jap": "ヒトカゲ - Hitokage",
+                  "id": "#004",
+                  "image": "data/images/Generation One/Red:blue/Back/4.png"
+                },
+                "Charmeleon": {
+                  "eng": "Charmander",
+                  "jap": "リザード - Lizardo",
+                  "id": "#005",
+                  "image": "data/images/Generation One/Red:blue/Back/5.png"
+                },
+                "Charizard": {
+                  "eng": "Charizard",
+                  "jap": "リザードン - Lizardon",
+                  "id": "#006",
+                  "image": "data/images/Generation One/Red:blue/Back/6.png"
+                },
+                "Squirtle": {
+                  "eng": "Squirtle",
+                  "jap": "ゼニガメ - Zenigame",
+                  "id": "#007",
+                  "image": "data/images/Generation One/Red:blue/Back/7.png"
+                },
+                "Wartortle": {
+                  "eng": "Wartortle",
+                  "jap": "カメール - Kameil",
+                  "id": "#008",
+                  "image": "data/images/Generation One/Red:blue/Back/8.png"
+                },
+                "Blastoise": {
+                  "eng": "Blastoise",
+                  "jap": "カメックス - Kamex",
+                  "id": "#009",
+                  "image": "data/images/Generation One/Red:blue/Back/9.png"
+                },
+                "Caterpie": {
+                  "eng": "Caterpie",
+                  "jap": "キャタピー - Caterpie",
+                  "id": "#010",
+                  "image": "data/images/Generation One/Red:blue/Back/10.png"
+                },
+                "Metapod": {
+                  "eng": "Metapod",
+                  "jap": "トランセル - Transel",
+                  "id": "#011",
+                  "image": "data/images/Generation One/Red:blue/Back/11.png"
+                },
+                "Butterfree": {
+                  "eng": "Butterfree",
+                  "jap": "バタフリー - Butterfree",
+                  "id": "#012",
+                  "image": "data/images/Generation One/Red:blue/Back/12.png"
+                },
+                "Weedle": {
+                  "eng": "Weedle",
+                  "jap": "ビードル - Beedle",
+                  "id": "#013",
+                  "image": "data/images/Generation One/Red:blue/Back/13.png"
+                },
+                "Kakuna": {
+                  "eng": "Kakuna",
+                  "jap": "コクーン - Cocoon",
+                  "id": "#014",
+                  "image": "data/images/Generation One/Red:blue/Back/14.png"
+                },
+                "Beedrill": {
+                  "eng": "Beedrill",
+                  "jap": "スピアー - Spear",
+                  "id": "#015",
+                  "image": "data/images/Generation One/Red:blue/Back/15.png"
+                },
+                "Pidgey": {
+                  "eng": "Pidgey",
+                  "jap": "ポッポ - Poppo",
+                  "id": "#016",
+                  "image": "data/images/Generation One/Red:blue/Back/16.png"
+                },
+                "Pidgeotto": {
+                  "eng": "Pidgeotto",
+                  "jap": "ピジョン - Pigeon",
+                  "id": "#017",
+                  "image": "data/images/Generation One/Red:blue/Back/17.png"
+                },
+                "Pidgeot": {
+                  "eng": "Pidgeot",
+                  "jap": "ピジョット - Pigeot",
+                  "id": "#018",
+                  "image": "data/images/Generation One/Red:blue/Back/18.png"
+                },
+                "Rattata": {
+                  "eng": "Rattata",
+                  "jap": "コラッタ - Koratta",
+                  "id": "#019",
+                  "image": "data/images/Generation One/Red:blue/Back/19.png"
+                },
+                "Raticate": {
+                  "eng": "Raticate",
+                  "jap": "ラッタ - Ratta",
+                  "id": "#020",
+                  "image": "data/images/Generation One/Red:blue/Back/20.png"
+                },
+                "Spearow": {
+                  "eng": "Spearow",
+                  "jap": "オニスズメ - Onisuzume",
+                  "id": "#021",
+                  "image": "data/images/Generation One/Red:blue/Back/21.png"
+                },
+                "Fearow": {
+                  "eng": "Fearow",
+                  "jap": "オニスズメ - Onidrill",
+                  "id": "#022",
+                  "image": "data/images/Generation One/Red:blue/Back/22.png"
+                },
+                "Ekans": {
+                  "eng": "Ekans",
+                  "jap": "アーボ - Arbo",
+                  "id": "#023",
+                  "image": "data/images/Generation One/Red:blue/Back/23.png"
+                },
+                "Arbok": {
+                  "eng": "Arbok",
+                  "jap": "アーボック - Arbok",
+                  "id": "#024",
+                  "image": "data/images/Generation One/Red:blue/Back/24.png"
+                },
+                "Pikachu": {
+                  "eng": "Pikachu",
+                  "jap": "ピカチュウ - Pikachu",
+                  "id": "#025",
+                  "image": "data/images/Generation One/Red:blue/Back/25.png"
+                },
+                "Raichu": {
+                  "eng": "Raichu",
+                  "jap": "ライチュウ - Raichu",
+                  "id": "#026",
+                  "image": "data/images/Generation One/Red:blue/Back/26.png"
+                },
+                "Sandshrew": {
+                  "eng": "Sandshrew",
+                  "jap": "サンド - Sand",
+                  "id": "#027",
+                  "image": "data/images/Generation One/Red:blue/Back/27.png"
+                },
+                "Sandslash": {
+                  "eng": "Sandslash",
+                  "jap": "サンドパン - Sandpan",
+                  "id": "#028",
+                  "image": "data/images/Generation One/Red:blue/Back/28.png"
+                },
+                "Nidoran♀": {
+                  "eng": "Nidoran♀",
+                  "jap": "ニドラン♀ - Nidoran♀",
+                  "id": "#029",
+                  "image": "data/images/Generation One/Red:blue/Back/29.png"
+                },
+                "Nidorina": {
+                  "eng": "Nidorina",
+                  "jap": "ニドリーナ - Nidorina",
+                  "id": "#030",
+                  "image": "data/images/Generation One/Red:blue/Back/30.png"
+                },
+                "Nidoqueen": {
+                  "eng": "Nidoqueen",
+                  "jap": "ニドクイン - Nidoqueen",
+                  "id": "#031",
+                  "image": "data/images/Generation One/Red:blue/Back/31.png"
+                },
+                "Nidoran♂": {
+                  "eng": "Nidoran♂",
+                  "jap": "ニドラン♂ - Nidoran♂",
+                  "id": "#032",
+                  "image": "data/images/Generation One/Red:blue/Back/32.png"
+                },
+                "Nidorino": {
+                  "eng": "Nidorino",
+                  "jap": "ニドリーノ - Nidorino",
+                  "id": "#033",
+                  "image": "data/images/Generation One/Red:blue/Back/33.png"
+                },
+                "Nidoking": {
+                  "eng": "Nidoking",
+                  "jap": "ニドキング - Nidoking",
+                  "id": "#034",
+                  "image": "data/images/Generation One/Red:blue/Back/34.png"
+                },
+                "Clefairy": {
+                  "eng": "Clefairy",
+                  "jap": "ピッピ - Pippi",
+                  "id": "#035",
+                  "image": "data/images/Generation One/Red:blue/Back/35.png"
+                },
+                "Clefable": {
+                  "eng": "Clefable",
+                  "jap": "ピクシー - Clefable",
+                  "id": "#036",
+                  "image": "data/images/Generation One/Red:blue/Back/36.png"
+                },
+                "Vulpix": {
+                  "eng": "Vulpix",
+                  "jap": "ロコン - Rokon",
+                  "id": "#037",
+                  "image": "data/images/Generation One/Red:blue/Back/37.png"
+                },
+                "Ninetales": {
+                  "eng": "Ninetales",
+                  "jap": "キュウコン - Kyukon",
+                  "id": "#038",
+                  "image": "data/images/Generation One/Red:blue/Back/38.png"
+                },
+                "Jigglypuff": {
+                  "eng": "Jigglypuff",
+                  "jap": "プリン - Purin",
+                  "id": "#039",
+                  "image": "data/images/Generation One/Red:blue/Back/39.png"
+                },
+                "Wigglytuff": {
+                  "eng": "Wigglytuff",
+                  "jap": "プクリン - Pukurin",
+                  "id": "#040",
+                  "image": "data/images/Generation One/Red:blue/Back/40.png"
+                },
+                "Zubat": {
+                  "eng": "Zubat",
+                  "jap": "ズバット - Zubat",
+                  "id": "#041",
+                  "image": "data/images/Generation One/Red:blue/Back/41.png"
+                },
+                "Golbat": {
+                  "eng": "Golbat",
+                  "jap": "ゴルバット - Golbat",
+                  "id": "#042",
+                  "image": "data/images/Generation One/Red:blue/Back/42.png"
+                },
+                "Oddish": {
+                  "eng": "Oddish",
+                  "jap": "ナゾノクサ - Nazonokusa",
+                  "id": "#043",
+                  "image": "data/images/Generation One/Red:blue/Back/43.png"
+                },
+                "Gloom": {
+                  "eng": "Gloom",
+                  "jap": "クサイハナ - Kusaihana",
+                  "id": "#044",
+                  "image": "data/images/Generation One/Red:blue/Back/44.png"
+                },
+                "Vileplume": {
+                  "eng": "Vileplume",
+                  "jap": "ラフレシア - Ruffresia",
+                  "id": "#045",
+                  "image": "data/images/Generation One/Red:blue/Back/45.png"
+                },
+                "Paras": {
+                  "eng": "Paras",
+                  "jap": "パラス - Paras",
+                  "id": "#046",
+                  "image": "data/images/Generation One/Red:blue/Back/46.png"
+                },
+                "Parasect": {
+                  "eng": "Parasect",
+                  "jap": "パラセクト - Parasect",
+                  "id": "#047",
+                  "image": "data/images/Generation One/Red:blue/Back/47.png"
+                },
+                "Venonat": {
+                  "eng": "Venonat",
+                  "jap": "コンパン - Kongpang",
+                  "id": "#048",
+                  "image": "data/images/Generation One/Red:blue/Back/48.png"
+                },
+                "Venomoth": {
+                  "eng": "Venomoth",
+                  "jap": "モルフォン - Morphon",
+                  "id": "#049",
+                  "image": "data/images/Generation One/Red:blue/Back/49.png"
+                },
+                "Diglett": {
+                  "eng": "Diglett",
+                  "jap": "ディグダ - Digda",
+                  "id": "#050",
+                  "image": "data/images/Generation One/Red:blue/Back/50.png"
+                },
+                "Dugtrio": {
+                  "eng": "Dugtrio",
+                  "jap": "ダグトリオ - Dugtrio",
+                  "id": "#051",
+                  "image": "data/images/Generation One/Red:blue/Back/51.png"
+                },
+                "Meowth": {
+                  "eng": "Meowth",
+                  "jap": "ニャース - Nyarth",
+                  "id": "#052",
+                  "image": "data/images/Generation One/Red:blue/Back/52.png"
+                },
+                "Persian": {
+                  "eng": "Persian",
+                  "jap": "ペルシアン - Persian",
+                  "id": "#053",
+                  "image": "data/images/Generation One/Red:blue/Back/53.png"
+                },
+                "Psyduck": {
+                  "eng": "Psyduck",
+                  "jap": "コダック - Psyduck",
+                  "id": "#054",
+                  "image": "data/images/Generation One/Red:blue/Back/54.png"
+                },
+                "Golduck": {
+                  "eng": "Golduck",
+                  "jap": "ゴルダック - Golduck",
+                  "id": "#055",
+                  "image": "data/images/Generation One/Red:blue/Back/55.png"
+                },
+                "Mankey": {
+                  "eng": "Mankey",
+                  "jap": "マンキー - Mankey",
+                  "id": "#056",
+                  "image": "data/images/Generation One/Red:blue/Back/56.png"
+                },
+                "Primeape": {
+                  "eng": "Primeape",
+                  "jap": "オコリザル - Okorizaru",
+                  "id": "#057",
+                  "image": "data/images/Generation One/Red:blue/Back/57.png"
+                },
+                "Growlithe": {
+                  "eng": "Growlithe",
+                  "jap": "ガーディ - Gardie",
+                  "id": "#058",
+                  "image": "data/images/Generation One/Red:blue/Back/58.png"
+                },
+                "Arcanine": {
+                  "eng": "Arcanine",
+                  "jap": "ウインディ - Windie",
+                  "id": "#059",
+                  "image": "data/images/Generation One/Red:blue/Back/59.png"
+                },
+                "Poliwag": {
+                  "eng": "Poliwag",
+                  "jap": "ニョロモ - Nyoromo",
+                  "id": "#060",
+                  "image": "data/images/Generation One/Red:blue/Back/60.png"
+                },
+                "Poliwhirl": {
+                  "eng": "Poliwhirl",
+                  "jap": "ニョロゾ - Nyorozo",
+                  "id": "#061",
+                  "image": "data/images/Generation One/Red:blue/Back/61.png"
+                },
+                "Poliwrath": {
+                  "eng": "Poliwrath",
+                  "jap": "ニョロボン - Nyorobon",
+                  "id": "#062",
+                  "image": "data/images/Generation One/Red:blue/Back/62.png"
+                },
+                "Abra": {
+                  "eng": "Abra",
+                  "jap": "ケーシィ - Casey",
+                  "id": "#063",
+                  "image": "data/images/Generation One/Red:blue/Back/63.png"
+                },
+                "Kadabra": {
+                  "eng": "Kadabra",
+                  "jap": "ユンゲラー - Yungerer",
+                  "id": "#064",
+                  "image": "data/images/Generation One/Red:blue/Back/64.png"
+                },
+                "Alakazam": {
+                  "eng": "Alakazam",
+                  "jap": "フーディン - Foodin",
+                  "id": "#065",
+                  "image": "data/images/Generation One/Red:blue/Back/65.png"
+                },
+                "Machop": {
+                  "eng": "Machop",
+                  "jap": "ワンリキー - Wanriky",
+                  "id": "#066",
+                  "image": "data/images/Generation One/Red:blue/Back/66.png"
+                },
+                "Machoke": {
+                  "eng": "Machoke",
+                  "jap": "ゴーリキー - Goriky",
+                  "id": "#067",
+                  "image": "data/images/Generation One/Red:blue/Back/67.png"
+                },
+                "Machamp": {
+                  "eng": "Machamp",
+                  "jap": "カイリキー - Kairiky",
+                  "id": "#068",
+                  "image": "data/images/Generation One/Red:blue/Back/68.png"
+                },
+                "Bellsprout": {
+                  "eng": "Bellsprout",
+                  "jap": "マダツボミ - Madatsubomi",
+                  "id": "#069",
+                  "image": "data/images/Generation One/Red:blue/Back/69.png"
+                },
+                "Weepinbell": {
+                  "eng": "Weepinbell",
+                  "jap": "ウツドン - Utsudon",
+                  "id": "#070",
+                  "image": "data/images/Generation One/Red:blue/Back/70.png"
+                },
+                "Victreebel": {
+                  "eng": "Victreebel",
+                  "jap": "ウツボット - Utsubot",
+                  "id": "#071",
+                  "image": "data/images/Generation One/Red:blue/Back/71.png"
+                },
+                "Tentacool": {
+                  "eng": "Tentacool",
+                  "jap": "メノクラゲ - Menokurage",
+                  "id": "#072",
+                  "image": "data/images/Generation One/Red:blue/Back/72.png"
+                },
+                "Tentacruel": {
+                  "eng": "Tentacruel",
+                  "jap": "ドククラゲ - Dokukurage",
+                  "id": "#073",
+                  "image": "data/images/Generation One/Red:blue/Back/73.png"
+                },
+                "Geodude": {
+                  "eng": "Geodude",
+                  "jap": "イシツブテ - Isitsubute",
+                  "id": "#074",
+                  "image": "data/images/Generation One/Red:blue/Back/74.png"
+                },
+                "Graveler": {
+                  "eng": "Graveler",
+                  "jap": "ゴローン - Golone",
+                  "id": "#075",
+                  "image": "data/images/Generation One/Red:blue/Back/75.png"
+                },
+                "Golem": {
+                  "eng": "Golem",
+                  "jap": "ゴローニャ - Golonya",
+                  "id": "#076",
+                  "image": "data/images/Generation One/Red:blue/Back/76.png"
+                },
+                "Ponyta": {
+                  "eng": "Ponyta",
+                  "jap": "ポニータ - Ponyta",
+                  "id": "#077",
+                  "image": "data/images/Generation One/Red:blue/Back/77.png"
+                },
+                "Rapidash": {
+                  "eng": "Rapidash",
+                  "jap": "ギャロップ - Gallop",
+                  "id": "#078",
+                  "image": "data/images/Generation One/Red:blue/Back/78.png"
+                },
+                "Slowpoke": {
+                  "eng": "Slowpoke",
+                  "jap": "ヤドン - Yadon",
+                  "id": "#079",
+                  "image": "data/images/Generation One/Red:blue/Back/79.png"
+                },
+                "Slowbro": {
+                  "eng": "Slowbro",
+                  "jap": "ヤドラン - Yadoran",
+                  "id": "#080",
+                  "image": "data/images/Generation One/Red:blue/Back/80.png"
+                },
+                "Magnemite": {
+                  "eng": "Magnemite",
+                  "jap": "コイル - Coil",
+                  "id": "#081",
+                  "image": "data/images/Generation One/Red:blue/Back/81.png"
+                },
+                "Magneton": {
+                  "eng": "Magneton",
+                  "jap": "レアコイル - Rarecoil",
+                  "id": "#082",
+                  "image": "data/images/Generation One/Red:blue/Back/82.png"
+                },
+                "Farfetch'd": {
+                  "eng": "Farfetch'd",
+                  "jap": "カモネギ - Kamonegi",
+                  "id": "#083",
+                  "image": "data/images/Generation One/Red:blue/Back/83.png"
+                },
+                "Doduo": {
+                  "eng": "Doduo",
+                  "jap": "ドードー - Dodo",
+                  "id": "#084",
+                  "image": "data/images/Generation One/Red:blue/Back/84.png"
+                },
+                "Dodrio": {
+                  "eng": "Dodrio",
+                  "jap": "ドードリオ - Dodorio",
+                  "id": "#085",
+                  "image": "data/images/Generation One/Red:blue/Back/85.png"
+                },
+                "Seel": {
+                  "eng": "Seel",
+                  "jap": "パウワウ - Pawou",
+                  "id": "#086",
+                  "image": "data/images/Generation One/Red:blue/Back/86.png"
+                },
+                "Dewgong": {
+                  "eng": "Dewgong",
+                  "jap": "ジュゴン - Jugon",
+                  "id": "#087",
+                  "image": "data/images/Generation One/Red:blue/Back/87.png"
+                },
+                "Grimer": {
+                  "eng": "Grimer",
+                  "jap": "ベトベター - Betbeter",
+                  "id": "#088",
+                  "image": "data/images/Generation One/Red:blue/Back/88.png"
+                },
+                "Muk": {
+                  "eng": "Muk",
+                  "jap": "ベトベトン - Betbeton",
+                  "id": "#089",
+                  "image": "data/images/Generation One/Red:blue/Back/89.png"
+                },
+                "Shellder": {
+                  "eng": "Shellder",
+                  "jap": "シェルダー - Shellder",
+                  "id": "#090",
+                  "image": "data/images/Generation One/Red:blue/Back/90.png"
+                },
+                "Cloyster": {
+                  "eng": "Cloyster",
+                  "jap": "パルシェン - Parshen",
+                  "id": "#091",
+                  "image": "data/images/Generation One/Red:blue/Back/91.png"
+                },
+                "Gastly": {
+                  "eng": "Gastly",
+                  "jap": "ゴース - Ghos",
+                  "id": "#092",
+                  "image": "data/images/Generation One/Red:blue/Back/92.png"
+                },
+                "Haunter": {
+                  "eng": "Haunter",
+                  "jap": "ゴースト - Ghost",
+                  "id": "#093",
+                  "image": "data/images/Generation One/Red:blue/Back/93.png"
+                },
+                "Gengar": {
+                  "eng": "Gengar",
+                  "jap": "ゲンガー - Gangar",
+                  "id": "#094",
+                  "image": "data/images/Generation One/Red:blue/Back/94.png"
+                },
+                "Onix": {
+                  "eng": "Onix",
+                  "jap": "イワーク - Iwark",
+                  "id": "#095",
+                  "image": "data/images/Generation One/Red:blue/Back/95.png"
+                },
+                "Drowzee": {
+                  "eng": "Drowzee",
+                  "jap": "スリープ - Sleepe",
+                  "id": "#096",
+                  "image": "data/images/Generation One/Red:blue/Back/96.png"
+                },
+                "Hypno": {
+                  "eng": "Hypno",
+                  "jap": "スリーパー - Sleeper",
+                  "id": "#097",
+                  "image": "data/images/Generation One/Red:blue/Back/97.png"
+                },
+                "Krabby": {
+                  "eng": "Krabby",
+                  "jap": "クラブ - Crab",
+                  "id": "#098",
+                  "image": "data/images/Generation One/Red:blue/Back/98.png"
+                },
+                "Kingler": {
+                  "eng": "Kingler",
+                  "jap": "キングラー - Kingler",
+                  "id": "#099",
+                  "image": "data/images/Generation One/Red:blue/Back/99.png"
+                },
+                "Voltorb": {
+                  "eng": "Voltorb",
+                  "jap": "ビリリダマ - Biriridama",
+                  "id": "#100",
+                  "image": "data/images/Generation One/Red:blue/Back/100.png"
+                },
+                "Electrode": {
+                  "eng": "Electrode",
+                  "jap": "マルマイン - Marumine",
+                  "id": "#101",
+                  "image": "data/images/Generation One/Red:blue/Back/101.png"
+                },
+                "Exeggcute": {
+                  "eng": "Exeggcute",
+                  "jap": "タマタマ - Tamatama",
+                  "id": "#102",
+                  "image": "data/images/Generation One/Red:blue/Back/102.png"
+                },
+                "Exeggutor": {
+                  "eng": "Exeggutor",
+                  "jap": "ナッシー - Nassy",
+                  "id": "#103",
+                  "image": "data/images/Generation One/Red:blue/Back/103.png"
+                },
+                "Cubone": {
+                  "eng": "Cubone",
+                  "jap": "カラカラ - Karakara",
+                  "id": "#104",
+                  "image": "data/images/Generation One/Red:blue/Back/104.png"
+                },
+                "Marowak": {
+                  "eng": "Marowak",
+                  "jap": "ガラガラ - Garagara",
+                  "id": "#105",
+                  "image": "data/images/Generation One/Red:blue/Back/105.png"
+                },
+                "Hitmonlee": {
+                  "eng": "Hitmonlee",
+                  "jap": "サワムラー - Sawamular",
+                  "id": "#106",
+                  "image": "data/images/Generation One/Red:blue/Back/106.png"
+                },
+                "Hitmonchan": {
+                  "eng": "Hitmonchan",
+                  "jap": "エビワラー - Ebiwalar",
+                  "id": "#107",
+                  "image": "data/images/Generation One/Red:blue/Back/107.png"
+                },
+                "Lickitung": {
+                  "eng": "Lickitung",
+                  "jap": "ベロリンガ - Beroringa",
+                  "id": "#108",
+                  "image": "data/images/Generation One/Red:blue/Back/108.png"
+                },
+                "Koffing": {
+                  "eng": "Koffing",
+                  "jap": "ドガース - Dogars",
+                  "id": "#109",
+                  "image": "data/images/Generation One/Red:blue/Back/109.png"
+                },
+                "Weezing": {
+                  "eng": "Weezing",
+                  "jap": "マタドガス - Matadogas",
+                  "id": "#110",
+                  "image": "data/images/Generation One/Red:blue/Back/110.png"
+                },
+                "Rhyhorn": {
+                  "eng": "Rhyhorn",
+                  "jap": "サイホーン - Sihorn",
+                  "id": "#111",
+                  "image": "data/images/Generation One/Red:blue/Back/111.png"
+                },
+                "Rhydon": {
+                  "eng": "Rhydon",
+                  "jap": "サイドン - Sidon",
+                  "id": "#112",
+                  "image": "data/images/Generation One/Red:blue/Back/112.png"
+                },
+                "Chansey": {
+                  "eng": "Chansey",
+                  "jap": "ラッキー - Lucky",
+                  "id": "#113",
+                  "image": "data/images/Generation One/Red:blue/Back/113.png"
+                },
+                "Tangela": {
+                  "eng": "Tangela",
+                  "jap": "モンジャラ - Monjara",
+                  "id": "#114",
+                  "image": "data/images/Generation One/Red:blue/Back/114.png"
+                },
+                "Kangaskhan": {
+                  "eng": "Kangaskhan",
+                  "jap": "ガルーラ - Garura",
+                  "id": "#115",
+                  "image": "data/images/Generation One/Red:blue/Back/115.png"
+                },
+                "Horsea": {
+                  "eng": "Horsea",
+                  "jap": "タッツー - Tattu",
+                  "id": "#116",
+                  "image": "data/images/Generation One/Red:blue/Back/116.png"
+                },
+                "Seadra": {
+                  "eng": "Seadra",
+                  "jap": "シードラ - Seadra",
+                  "id": "#117",
+                  "image": "data/images/Generation One/Red:blue/Back/117.png"
+                },
+                "Goldeen": {
+                  "eng": "Goldeen",
+                  "jap": "トサキント - Tosakinto",
+                  "id": "#118",
+                  "image": "data/images/Generation One/Red:blue/Back/118.png"
+                },
+                "Seaking": {
+                  "eng": "Seaking",
+                  "jap": "アズマオウ - Azumao",
+                  "id": "#119",
+                  "image": "data/images/Generation One/Red:blue/Back/119.png"
+                },
+                "Staryu": {
+                  "eng": "Staryu",
+                  "jap": "ヒトデマン - Hitodeman",
+                  "id": "#120",
+                  "image": "data/images/Generation One/Red:blue/Back/120.png"
+                },
+                "Starmie": {
+                  "eng": "Starmie",
+                  "jap": "スターミー - Starmie",
+                  "id": "#121",
+                  "image": "data/images/Generation One/Red:blue/Back/121.png"
+                },
+                "Mr. Mime": {
+                  "eng": "Mr. Mime",
+                  "jap": "バリヤード - Barrierd",
+                  "id": "#122",
+                  "image": "data/images/Generation One/Red:blue/Back/122.png"
+                },
+                "Scyther": {
+                  "eng": "Scyther",
+                  "jap": "ストライク - Strike",
+                  "id": "#123",
+                  "image": "data/images/Generation One/Red:blue/Back/123.png"
+                },
+                "Jynx": {
+                  "eng": "Jynx",
+                  "jap": "ルージュラ - Rougela",
+                  "id": "#124",
+                  "image": "data/images/Generation One/Red:blue/Back/124.png"
+                },
+                "Electabuzz": {
+                  "eng": "Electabuzz",
+                  "jap": "エレブー - Eleboo",
+                  "id": "#125",
+                  "image": "data/images/Generation One/Red:blue/Back/125.png"
+                },
+                "Magmar": {
+                  "eng": "Magmar",
+                  "jap": "ブーバー - Boober",
+                  "id": "#126",
+                  "image": "data/images/Generation One/Red:blue/Back/126.png"
+                },
+                "Pinsir": {
+                  "eng": "Pinsir",
+                  "jap": "カイロス - Kailios",
+                  "id": "#127",
+                  "image": "data/images/Generation One/Red:blue/Back/127.png"
+                },
+                "Tauros": {
+                  "eng": "Tauros",
+                  "jap": "ケンタロス - Kentauros",
+                  "id": "#128",
+                  "image": "data/images/Generation One/Red:blue/Back/128.png"
+                },
+                "Magikarp": {
+                  "eng": "Magikarp",
+                  "jap": "コイキング - Koiking",
+                  "id": "#129",
+                  "image": "data/images/Generation One/Red:blue/Back/129.png"
+                },
+                "Gyarados": {
+                  "eng": "Gyarados",
+                  "jap": "ギャラドス - Gyarados",
+                  "id": "#130",
+                  "image": "data/images/Generation One/Red:blue/Back/130.png"
+                },
+                "Lapras": {
+                  "eng": "Lapras",
+                  "jap": "ラプラス - Laplace",
+                  "id": "#131",
+                  "image": "data/images/Generation One/Red:blue/Back/131.png"
+                },
+                "Ditto": {
+                  "eng": "Ditto",
+                  "jap": "メタモン - Metamon",
+                  "id": "#132",
+                  "image": "data/images/Generation One/Red:blue/Back/132.png"
+                },
+                "Eevee": {
+                  "eng": "Eevee",
+                  "jap": "イーブイ - Eievui",
+                  "id": "#133",
+                  "image": "data/images/Generation One/Red:blue/Back/133.png"
+                },
+                "Vaporeon": {
+                  "eng": "Vaporeon",
+                  "jap": "シャワーズ - Showers",
+                  "id": "#134",
+                  "image": "data/images/Generation One/Red:blue/Back/134.png"
+                },
+                "Jolteon": {
+                  "eng": "Jolteon",
+                  "jap": "サンダース - Thunders",
+                  "id": "#135",
+                  "image": "data/images/Generation One/Red:blue/Back/135.png"
+                },
+                "Flareon": {
+                  "eng": "Flareon",
+                  "jap": "ブースター - Booster",
+                  "id": "#136",
+                  "image": "data/images/Generation One/Red:blue/Back/136.png"
+                },
+                "Porygon": {
+                  "eng": "Porygon",
+                  "jap": "ポリゴン - Porygon",
+                  "id": "#137",
+                  "image": "data/images/Generation One/Red:blue/Back/137.png"
+                },
+                "Omanyte": {
+                  "eng": "Omanyte",
+                  "jap": "オムナイト - Omnite",
+                  "id": "#138",
+                  "image": "data/images/Generation One/Red:blue/Back/138.png"
+                },
+                "Omastar": {
+                  "eng": "Omastar",
+                  "jap": "オムスター - Omstar",
+                  "id": "#139",
+                  "image": "data/images/Generation One/Red:blue/Back/139.png"
+                },
+                "Kabuto": {
+                  "eng": "Kabuto",
+                  "jap": "カブト - Kabuto",
+                  "id": "#140",
+                  "image": "data/images/Generation One/Red:blue/Back/140.png"
+                },
+                "Kabutops": {
+                  "eng": "Kabutops",
+                  "jap": "カブトプス - Kabutops",
+                  "id": "#141",
+                  "image": "data/images/Generation One/Red:blue/Back/141.png"
+                },
+                "Aerodactyl": {
+                  "eng": "Aerodactyl",
+                  "jap": "プテラ - Ptera",
+                  "id": "#142",
+                  "image": "data/images/Generation One/Red:blue/Back/142.png"
+                },
+                "Snorlax": {
+                  "eng": "Snorlax",
+                  "jap": "カビゴン - Kabigon",
+                  "id": "#143",
+                  "image": "data/images/Generation One/Red:blue/Back/143.png"
+                },
+                "Articuno": {
+                  "eng": "Articuno",
+                  "jap": "プクリン - Freezer",
+                  "id": "#144",
+                  "image": "data/images/Generation One/Red:blue/Back/144.png"
+                },
+                "Zapdos": {
+                  "eng": "Zapdos",
+                  "jap": "サンダー - Thunder",
+                  "id": "#145",
+                  "image": "data/images/Generation One/Red:blue/Back/145.png"
+                },
+                "Moltres": {
+                  "eng": "Moltres",
+                  "jap": "プクリン - Fire",
+                  "id": "#146",
+                  "image": "data/images/Generation One/Red:blue/Back/146.png"
+                },
+                "Dratini": {
+                  "eng": "Dratini",
+                  "jap": "ミニリュウ - Miniryu",
+                  "id": "#147",
+                  "image": "data/images/Generation One/Red:blue/Back/147.png"
+                },
+                "Dragonair": {
+                  "eng": "Dragonair",
+                  "jap": "ハクリュー - Hakuryu",
+                  "id": "#148",
+                  "image": "data/images/Generation One/Red:blue/Back/148.png"
+                },
+                "Dragonite": {
+                  "eng": "Dragonite",
+                  "jap": "カイリュー - Kairyu",
+                  "id": "#149",
+                  "image": "data/images/Generation One/Red:blue/Back/149.png"
+                },
+                "Mewtwo": {
+                  "eng": "Mewtwo",
+                  "jap": "ミュウツー - Mewtwo",
+                  "id": "#150",
+                  "image": "data/images/Generation One/Red:blue/Back/150.png"
+                },
+                "Mew": {
+                  "eng": "Mew",
+                  "jap": "ミュウ - Mew",
+                  "id": "#151",
+                  "image": "data/images/Generation One/Red:blue/Back/151.png"
+                }
+              },
+            "Gameboy sprites": ""
+        },
+        "Green": {
+            "Front sprites": "",
+            "Back sprites": "",
+            "Gameboy sprites": ""
+        },
+        "Yellow": {
+            "Front sprites": "",
+            "Back sprites": "",
+            "Gameboy sprites": "",
+            "Gameboy Color sprites": ""
+        }
+    },
+    "Trainers": {
+
+    }
+}
