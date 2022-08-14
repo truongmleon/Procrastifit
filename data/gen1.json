@@ -12719,7 +12719,9 @@
             }
         }
     },
-    "Trainers": {
-
+    "Trainers GB": {
+      "Agatha": {
+        "name": "Agatha"
+      }
     }
 }
