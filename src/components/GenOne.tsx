@@ -13,10 +13,8 @@ const GenOne = () => {
     
     //Names and ids from all games are the same
     let pokemonNames = Object.keys(data['Pokémon']["Red/Blue"]['Front sprites']);
+    let trainers = Object.keys(data['Trainers GB'])
     for (let i = 0; i < pokemonNames.length; i++) {
-        //elements.push(<img src={image} alt={pokemonNames[i]}/>)
-        //console.log(data['Pokémon']["Green"]['Gameboy sprites'][pokemonNames[64]]['image'])
-
         elements.push(<tr>
             <td className='highlight'>{data['Pokémon']["Red/Blue"]['Front sprites'][pokemonNames[i]]["id"]}</td>
             <td className='highlight'>{pokemonNames[i]}</td>
@@ -53,7 +51,6 @@ const GenOne = () => {
             <td>GB Trainers</td>
             <td>GBC Trainers (Yellow)</td>
         </tr>)
-
     }
 
     return <div>

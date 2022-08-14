@@ -12721,7 +12721,145 @@
     },
     "Trainers GB": {
       "Agatha": {
-        "name": "Agatha"
+        "link": "data/images/Generation One/Trainers/agatha.png"
+      },
+      "Beauty": {
+        "link": ""
+      },
+      "Biker": {
+        "link": ""
+      },
+      "Birdkeeper": {
+        "link": ""
+      },
+      "Backbelt": {
+        "link": ""
+      },
+      "Blaine": {
+        "link": ""
+      },
+      "Blue1": {
+        "link": ""
+      },
+      "Blue2": {
+        "link": ""
+      },
+      "Brock": {
+        "link": ""
+      },
+      "Bruno": {
+        "link": ""
+      },
+      "Bugcatcher": {
+        "link": ""
+      },
+      "Burglar": {
+        "link": ""
+      },
+      "Champion Blue": {
+        "link": ""
+      },
+      "Channeler": {
+        "link": ""
+      },
+      "Cooltrainer (f)": {
+        "link": ""
+      },
+      "Cooltrainer (m)": {
+        "link": ""
+      },
+      "Cueball": {
+        "link": ""
+      },
+      "Engineer": {
+        "link": ""
+      },
+      "Erika": {
+        "link": ""
+      },
+      "Fisherman": {
+        "link": ""
+      },
+      "Gambler": {
+        "link": ""
+      },
+      "Gentleman": {
+        "link": ""
+      },
+      "Ghost": {
+        "link": ""
+      },
+      "Giovanni": {
+        "link": ""
+      },
+      "Hiker": {
+        "link": ""
+      },
+      "Jr trainer (f)": {
+        "link": ""
+      },
+      "Jr trainer (m)": {
+        "link": ""
+      },
+      "Juggler": {
+        "link": ""
+      },
+      "Koga": {
+        "link": ""
+      },
+      "Lance": {
+        "link": ""
+      },
+      "Lass": {
+        "link": ""
+      },
+      "Lorelei": {
+        "link": ""
+      },
+      "Lt. Surge": {
+        "link": ""
+      },
+      "Misty": {
+        "link": ""
+      },
+      "PokeManiac": {
+        "link": ""
+      },
+      "Prof. Oak": {
+        "link": ""
+      },
+      "Psychic": {
+        "link": ""
+      },
+      "Red1": {
+        "link": ""
+      },
+      "Red2": {
+        "link": ""
+      },
+      "Rocker": {
+        "link": ""
+      },
+      "Rocket Grunt": {
+        "link": ""
+      },
+      "Sabrina": {
+        "link": ""
+      },
+      "Sailor": {
+        "link": ""
+      },
+      "Scientist": {
+        "link": ""
+      },
+      "Super nerd": {
+        "link": ""
+      },
+      "Swimmer": {
+        "link": ""
+      },
+      "Tamer": {
+        "link": ""
       }
     }
 }
