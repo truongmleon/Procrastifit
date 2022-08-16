@@ -19,7 +19,7 @@ const GenOne = () => {
         elements.push(<tr>
             <td className='highlight'>{data['Pokémon']["Red/Blue"]['Front sprites'][pokemonNames[i]]["id"]}</td>
             <td className='highlight'>{pokemonNames[i]}</td>
-            <td className='highlight'>{data['Pokémon']["Red/Blue"]['Front sprites'][pokemonNames[i]]['jap']}</td>
+            <td className='highlight'>{data['Pokémon']["Red/Blue"]['Front sprites'][pokemonNames[i]]['jp']}</td>
             <td>
             <img draggable="false" src={data['Pokémon']["Red/Blue"]['Gameboy sprites'][pokemonNames[i]]['image']} alt={pokemonNames[i]} />
             <img draggable="false" src={data['Pokémon']["Red/Blue"]['Gameboy back sprites'][pokemonNames[i]]['image']} alt={pokemonNames[i]} />
