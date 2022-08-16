@@ -14,6 +14,7 @@ const GenOne = () => {
     //Names and ids from all games are the same
     let pokemonNames = Object.keys(data['Pokémon']["Red/Blue"]['Front sprites']);
     let trainers = Object.keys(data['Trainers GB'])
+    //console.log(data['Trainers GB'][trainers[0]])
     for (let i = 0; i < pokemonNames.length; i++) {
         elements.push(<tr>
             <td className='highlight'>{data['Pokémon']["Red/Blue"]['Front sprites'][pokemonNames[i]]["id"]}</td>
