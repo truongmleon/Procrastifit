@@ -12730,136 +12730,279 @@
         "link": "data/images/Generation One/Trainers/biker.png"
       },
       "Birdkeeper": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/birdkeeper.png"
       },
       "Backbelt": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/blackbelt.png"
       },
       "Blaine": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/blaine.png"
       },
       "Blue1": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/blue1.png"
       },
       "Blue2": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/blue2.png"
       },
       "Brock": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/brock.png"
       },
       "Bruno": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/bruno.png"
       },
       "Bugcatcher": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/bugcatcher.png"
       },
       "Burglar": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/burglar.png"
       },
       "Champion Blue": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/championblue.png"
       },
       "Channeler": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/channeler.png"
       },
-      "Cooltrainer (f)": {
-        "link": ""
+      "Cool trainer (f)": {
+        "link": "data/images/Generation One/Trainers/cooltrainerf.png"
       },
-      "Cooltrainer (m)": {
-        "link": ""
+      "Cool trainer (m)": {
+        "link": "data/images/Generation One/Trainers/cooltrainerm.png"
       },
       "Cueball": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/cueball.png"
       },
       "Engineer": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/engineer.png"
       },
       "Erika": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/erika.png"
       },
       "Fisherman": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/fisherman.png"
       },
       "Gambler": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/gambler.png"
       },
       "Gentleman": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/gentleman.png"
       },
       "Ghost": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/ghost.png"
       },
       "Giovanni": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/giovanni.png"
       },
       "Hiker": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/hiker.png"
       },
       "Jr trainer (f)": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/jrtrainerf.png"
       },
       "Jr trainer (m)": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/jrtrainerm.png"
       },
       "Juggler": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/juggler.png"
       },
       "Koga": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/koga.png"
       },
       "Lance": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/lance.png"
       },
       "Lass": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/lass.png"
       },
       "Lorelei": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/lorelei.png"
       },
       "Lt. Surge": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/ltsurge.png"
       },
       "Misty": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/misty.png"
       },
       "PokeManiac": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/pokemaniac.png"
       },
       "Prof. Oak": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/profoak.png"
       },
       "Psychic": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/psychic.png"
       },
       "Red1": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/red1.png"
       },
       "Red2": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/red2.png"
       },
       "Rocker": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/rocker.png"
       },
       "Rocket Grunt": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/rocketgrunt.png"
       },
       "Sabrina": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/sabrina.png"
       },
       "Sailor": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/sailor.png"
       },
       "Scientist": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/scientist.png"
       },
       "Super nerd": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/supernerd.png"
       },
       "Swimmer": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/swimmer.png"
       },
       "Tamer": {
-        "link": ""
+        "link": "data/images/Generation One/Trainers/tamer.png"
+      }
+    },
+    "Trainers Yellow": {
+      "Agatha": {
+        "link": "data/images/Generation One/Trainers/Yagatha.png"
+      },
+      "Beauty": {
+        "link": "data/images/Generation One/Trainers/Ybeauty.png"
+      },
+      "Biker": {
+        "link": "data/images/Generation One/Trainers/Ybiker.png"
+      },
+      "Birdkeeper": {
+        "link": "data/images/Generation One/Trainers/Ybirdkeeper.png"
+      },
+      "Backbelt": {
+        "link": "data/images/Generation One/Trainers/Yblackbelt.png"
+      },
+      "Blaine": {
+        "link": "data/images/Generation One/Trainers/Yblaine.png"
+      },
+      "Blue1": {
+        "link": "data/images/Generation One/Trainers/Yblue1.png"
+      },
+      "Blue2": {
+        "link": "data/images/Generation One/Trainers/Yblue2.png"
+      },
+      "Brock": {
+        "link": "data/images/Generation One/Trainers/Ybrock.png"
+      },
+      "Bruno": {
+        "link": "data/images/Generation One/Trainers/Ybruno.png"
+      },
+      "Bugcatcher": {
+        "link": "data/images/Generation One/Trainers/Ybugcatcher.png"
+      },
+      "Burglar": {
+        "link": "data/images/Generation One/Trainers/Yburglar.png"
+      },
+      "Champion Blue": {
+        "link": "data/images/Generation One/Trainers/Ychampionblue.png"
+      },
+      "Channeler": {
+        "link": "data/images/Generation One/Trainers/Ychanneler.png"
+      },
+      "Cool trainer (f)": {
+        "link": "data/images/Generation One/Trainers/Ycooltrainerf.png"
+      },
+      "Cool trainer (m)": {
+        "link": "data/images/Generation One/Trainers/Ycooltrainerm.png"
+      },
+      "Cueball": {
+        "link": "data/images/Generation One/Trainers/Ycueball.png"
+      },
+      "Engineer": {
+        "link": "data/images/Generation One/Trainers/Yengineer.png"
+      },
+      "Erika": {
+        "link": "data/images/Generation One/Trainers/Yerika.png"
+      },
+      "Fisherman": {
+        "link": "data/images/Generation One/Trainers/Yfisherman.png"
+      },
+      "Gambler": {
+        "link": "data/images/Generation One/Trainers/Ygambler.png"
+      },
+      "Gentleman": {
+        "link": "data/images/Generation One/Trainers/Ygentleman.png"
+      },
+      "Ghost": {
+        "link": "data/images/Generation One/Trainers/Yghost.png"
+      },
+      "Giovanni": {
+        "link": "data/images/Generation One/Trainers/Ygiovanni.png"
+      },
+      "Hiker": {
+        "link": "data/images/Generation One/Trainers/Yhiker.png"
+      },
+      "Jr trainer (f)": {
+        "link": "data/images/Generation One/Trainers/Yjrtrainerf.png"
+      },
+      "Jr trainer (m)": {
+        "link": "data/images/Generation One/Trainers/Yjrtrainerm.png"
+      },
+      "Juggler": {
+        "link": "data/images/Generation One/Trainers/Yjuggler.png"
+      },
+      "Koga": {
+        "link": "data/images/Generation One/Trainers/Ykoga.png"
+      },
+      "Lance": {
+        "link": "data/images/Generation One/Trainers/Ylance.png"
+      },
+      "Lass": {
+        "link": "data/images/Generation One/Trainers/Ylass.png"
+      },
+      "Lorelei": {
+        "link": "data/images/Generation One/Trainers/Ylorelei.png"
+      },
+      "Lt. Surge": {
+        "link": "data/images/Generation One/Trainers/Yltsurge.png"
+      },
+      "Misty": {
+        "link": "data/images/Generation One/Trainers/Ymisty.png"
+      },
+      "PokeManiac": {
+        "link": "data/images/Generation One/Trainers/Ypokemaniac.png"
+      },
+      "Prof. Oak": {
+        "link": "data/images/Generation One/Trainers/Yprofoak.png"
+      },
+      "Psychic": {
+        "link": "data/images/Generation One/Trainers/Ypsychic.png"
+      },
+      "Red1": {
+        "link": "data/images/Generation One/Trainers/Yed1.png"
+      },
+      "Red2": {
+        "link": "data/images/Generation One/Trainers/Yred2.png"
+      },
+      "Rocker": {
+        "link": "data/images/Generation One/Trainers/Yrocker.png"
+      },
+      "Rocket Grunt": {
+        "link": "data/images/Generation One/Trainers/Yrocketgrunt.png"
+      },
+      "Sabrina": {
+        "link": "data/images/Generation One/Trainers/Ysabrina.png"
+      },
+      "Sailor": {
+        "link": "data/images/Generation One/Trainers/Ysailor.png"
+      },
+      "Scientist": {
+        "link": "data/images/Generation One/Trainers/Yscientist.png"
+      },
+      "Super nerd": {
+        "link": "data/images/Generation One/Trainers/Ysupernerd.png"
+      },
+      "Swimmer": {
+        "link": "data/images/Generation One/Trainers/Yswimmer.png"
+      },
+      "Tamer": {
+        "link": "data/images/Generation One/Trainers/Ytamer.png"
       }
     }
 }
