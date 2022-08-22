@@ -1,7 +1,16 @@
 const Navbar = () => {
   return (
     <div className="">
-      <h1>Hello World</h1>
+      <nav>
+        <ul>
+          <li>
+            Generation One
+          </li>
+          <li>
+            Generation Two
+          </li>
+        </ul>
+      </nav>
     </div>
   )
 }
