@@ -1,8 +1,10 @@
 const Navbar = () => {
   return (
-    <div className="">
-      
-
+    <header className="">
+      <div id='header-container'>
+      <h1>Pokémon Spritedex</h1>
+      <img id='pokeball' src="/src/pokeball.gif" alt="pokeballs" />
+      </div>
       <nav>
         <ul>
           <li>
@@ -34,7 +36,7 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-    </div>
+    </header>
   )
 }
 

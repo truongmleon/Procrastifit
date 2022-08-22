@@ -66,7 +66,7 @@ const GenOne = () => {
         </tr>)
     }
 
-    return <div>
+    return <main>
         <div className="flex">
         <table>
             <thead>
@@ -91,7 +91,7 @@ const GenOne = () => {
             </tbody>
         </table>
         </div>
-    </div>
+    </main>
 }
 
 export default GenOne;
