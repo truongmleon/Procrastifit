@@ -7,33 +7,16 @@ const Navbar = () => {
       </div>
       <nav>
         <ul>
-          <li>
-            Generation One
-          </li>
-          <li>
-            Generation Two
-          </li>
-          <li>
-            Generation Three
-          </li>
-          <li>
-            Generation Four
-          </li>
-          <li>
-            Generation Five
-          </li>
-          <li>
-            Generation Six
-          </li>
-          <li>
-            Generation Seven
-          </li>
-          <li>
-            Generation Eight
-          </li>
-          <li>
-            Items
-          </li>
+          <li>Home</li>
+          <li>Generation 1</li>
+          <li>Generation 2</li>
+          <li>Generation 3</li>
+          <li>Generation 4</li>
+          <li>Generation 5</li>
+          <li>Generation 6</li>
+          <li>Generation 7</li>
+          <li>Generation 8</li>
+          <li>Items</li>
         </ul>
       </nav>
     </header>
