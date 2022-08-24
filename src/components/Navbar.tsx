@@ -8,15 +8,15 @@ const Navbar = () => {
       <nav>
         <ul>
           <li>Home</li>
-          <li>Generation 1</li>
-          <li>Generation 2</li>
-          <li>Generation 3</li>
-          <li>Generation 4</li>
-          <li>Generation 5</li>
-          <li>Generation 6</li>
-          <li>Generation 7</li>
-          <li>Generation 8</li>
-          <li>Items</li>
+          <li className="gen-btn" id="gen-one">Generation 1</li>
+          <li id="gen-two">Generation 2</li>
+          <li id="gen-three">Generation 3</li>
+          <li id="gen-four">Generation 4</li>
+          <li id="gen-five">Generation 5</li>
+          <li id="gen-six">Generation 6</li>
+          <li id="gen-seven">Generation 7</li>
+          <li id="gen-eight">Generation 8</li>
+          <li id="gen-nine">Items</li>
         </ul>
       </nav>
     </header>

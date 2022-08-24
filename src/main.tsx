@@ -6,14 +6,6 @@ import Home from './components/Home';
 
 import { useState } from 'react';
 
-/*
-fetch(link)
-.then(response => response.json())
-.then(data => {
-  console.log(data)
-});
-*/
-
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <Navbar />
