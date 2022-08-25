@@ -3,11 +3,12 @@ setTimeout(() => { //Not sure why I need setTimeout, but it works...
 
   for (let i = 0; i < buttonElements.length; i++) {
       buttonElements.item(i)?.addEventListener("click", () => {
-          console.log(1)
+          
       });
   }
 
-}, 1)
+}, 1);
+
 const Navbar = () => {
   return (
     <header className="">
