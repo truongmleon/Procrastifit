@@ -1,6 +1,8 @@
 const Home = () => {
     return (
-        <div id="1"></div>
+        <main>
+        <div className="flex generations" id='home'></div>
+    </main>
     )
 }
 

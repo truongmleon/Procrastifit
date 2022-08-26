@@ -150,7 +150,8 @@ ul {
 }
 
 main {
-  padding-top: 70px;
+  position: relative;
+  top: 70px;
 }
 
 li:hover {

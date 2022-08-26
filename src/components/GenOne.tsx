@@ -15,7 +15,7 @@ const GenOne = () => {
     let pokemonNames = Object.keys(data['Pokémon']["Red/Blue"]['Front sprites']);
     let trainers = Object.keys(data['Trainers GB'])
 
-    for (let i = 0; i < pokemonNames.length; i++) {
+    for (let i = 0; i < pokemonNames.length; i++) { //TS to render sprites
         elements.push(<tr>
             <td className='highlight'>{data['Pokémon']["Red/Blue"]['Front sprites'][pokemonNames[i]]["id"]}</td>
             <td className='highlight'>{pokemonNames[i]}</td>
@@ -67,7 +67,7 @@ const GenOne = () => {
     }
 
     return <main>
-        <div className="flex">
+        <div className="flex generations" id='gen-one-container'>
         <table>
             <thead>
             <tr>

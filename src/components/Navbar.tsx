@@ -1,10 +1,30 @@
 setTimeout(() => { //Not sure why I need setTimeout, but it works...
-    const buttonElements: HTMLCollectionOf<Element> = document.getElementsByClassName("nav-btn");
+  const buttonElements: HTMLCollectionOf<Element> = document.getElementsByClassName("nav-btn");
+  const arrayOfGens:string[] = ["home", 
+  "gen-one-container",
+  "gen-two-container",
+  "gen-three-container",
+  "gen-four-container", 
+  "gen-five-container", 
+  "gen-six-container",  
+  "gen-seven-container",
+  "gen-eight-container"];
 
   for (let i = 0; i < buttonElements.length; i++) {
-      buttonElements.item(i)?.addEventListener("click", () => {
-          
+    const element = buttonElements.item(i) as HTMLElement;
+    element.addEventListener("click", () => {
+      const addingContainer = document.getElementById(arrayOfGens[i]) as HTMLElement;
+
+      arrayOfGens.forEach(element => {
+        const container = document.getElementById(element) as HTMLElement;
+        console.log(container)
+        container.style.display = 'none';
       });
+
+      addingContainer.style.display = "flex";
+
+
+    });
   }
 
 }, 1);

@@ -1,6 +1,8 @@
 const GenFive = () => {
     return (
-        <div></div>
+        <main>
+        <div className="flex generations" id='gen-five-container'></div>
+        </main>
     )
 }
 
