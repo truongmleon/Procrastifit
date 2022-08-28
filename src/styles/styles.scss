@@ -91,7 +91,7 @@ h1 {
     margin: 0;
 }
 
-li {
+.nav-btn {
     list-style-type: none;
     font-size: 1.2em;
     position: relative;
@@ -122,7 +122,7 @@ main {
     top: 70px;
 }
 
-li:hover {
+.nav-btn:hover {
     background-color: #fafafae3;
 }
 
@@ -147,11 +147,18 @@ nav {
 
 #wooper {
     width: 150px;
-    height: 150px;
+    height: 120px;
+    border: 9px double #000;
+    padding: 10px;
+    box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
     border-bottom: #000 2px solid;
     font-size: 2.5em;
+}
+
+#homepage {
+
 }

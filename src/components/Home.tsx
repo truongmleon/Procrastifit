@@ -9,7 +9,12 @@ const Home = () => {
             I thought this was a cool project, I enjoyed Pokémon a lot as a kid.
         </p>
             <h2>Crediting</h2>
-            <ul></ul>
+            <ul>
+            <li>© Nintendo/Creatures Inc./GAME FREAK Inc.</li>
+
+            <li>License: MIT license</li>
+            
+            </ul>
         </div>
     </main>
     )

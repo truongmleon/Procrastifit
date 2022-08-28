@@ -19,10 +19,7 @@ setTimeout(() => { //Not sure why I need setTimeout, but it works...
         const container = document.getElementById(element) as HTMLElement;
         container.style.display = 'none';
       });
-
-      addingContainer.style.display = "flex";
-
-
+      addingContainer.id == 'home' ? addingContainer.style.display = "block" : addingContainer.style.display = "flex";
     });
   }
 
