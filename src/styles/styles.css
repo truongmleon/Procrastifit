@@ -204,4 +204,9 @@ h2 {
 #home {
   width: 1250px;
 }
+
+#crediting li {
+  font-size: 1.4em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 /*# sourceMappingURL=styles.css.map */
