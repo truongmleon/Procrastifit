@@ -17,7 +17,6 @@ setTimeout(() => { //Not sure why I need setTimeout, but it works...
 
       arrayOfGens.forEach(element => {
         const container = document.getElementById(element) as HTMLElement;
-        console.log(container)
         container.style.display = 'none';
       });
 
