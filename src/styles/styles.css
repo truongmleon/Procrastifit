@@ -134,7 +134,7 @@ h1 {
   transition: 0.2s;
 }
 
-ul {
+#nav-elements {
   margin: 0;
   padding: 0;
   height: 50px;
@@ -150,6 +150,9 @@ ul {
 main {
   position: relative;
   top: 70px;
+  -webkit-transition: opacity 1s ease-out;
+  transition: opacity 1s ease-out;
+  opacity: 1;
 }
 
 .nav-btn:hover {
@@ -184,8 +187,8 @@ nav {
 }
 
 #wooper {
-  width: 150px;
-  height: 120px;
+  width: 200px;
+  height: 162px;
   border: 9px double #000;
   padding: 10px;
   -webkit-box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.1);
@@ -196,5 +199,9 @@ h2 {
   font-family: 'Source Sans Pro', sans-serif;
   border-bottom: #000 2px solid;
   font-size: 2.5em;
+}
+
+#home {
+  width: 1250px;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -19,6 +19,7 @@ setTimeout(() => { //Not sure why I need setTimeout, but it works...
         const container = document.getElementById(element) as HTMLElement;
         container.style.display = 'none';
       });
+      console.log(addingContainer)
       addingContainer.id == 'home' ? addingContainer.style.display = "block" : addingContainer.style.display = "flex";
     });
   }
@@ -33,7 +34,7 @@ const Navbar = () => {
       <img id='pokeball' src="/src/pokeball.gif" alt="pokeballs" />
       </div>
       <nav>
-        <ul>
+        <ul id='nav-elements'>
           <li className="nav-btn" id='gen-home'>Home</li>
           <li className="nav-btn" id="gen-one">Generation 1</li>
           <li className="nav-btn" id="gen-two">Generation 2</li>
