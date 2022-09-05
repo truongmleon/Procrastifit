@@ -7,7 +7,7 @@
     "start": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "server": "nodemon server",
+    "server": "nodemon src/backend/server",
     "dev": "concurrently \"npm run start\" \"npm run server\" "
   },
   "dependencies": {
