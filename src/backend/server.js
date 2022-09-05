@@ -11,7 +11,7 @@ app.use(
 
 app.get('/api/v1', (req, res) => {
     const data = [
-        {GenerationOne: "/api/v1/GenerationOne"}
+        {GenerationOne: "http://localhost:4000/api/v1/GenerationOne"}
     ]
     res.json(data);
 });
