@@ -4,12 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "devBackend": "nodemon src/backend/server"
+    "server": "nodemon server",
+    "dev": "concurrently \"npm run start\" \"npm run server\" "
   },
   "dependencies": {
+    "concurrently": "^7.3.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -21,5 +25,6 @@
     "nodemon": "^2.0.19",
     "typescript": "^4.6.4",
     "vite": "^3.0.0"
-  }
+  },
+  "proxy": "http://localhost:4000/"
 }

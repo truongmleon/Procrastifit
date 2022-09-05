@@ -10,6 +10,10 @@ const GenOne = () => {
     req.addEventListener("load", reqListener);
     req.open("GET", "./data/gen1.json", false);
     req.send();
+
+    fetch('http://localhost:4000/api/v1')
+    .then(res => res.json())
+    .then(data => console.log(data))
     
     //Names and ids from all games are the same
     let pokemonNames = Object.keys(data['Pokémon']["Red/Blue"]['Front sprites']);
