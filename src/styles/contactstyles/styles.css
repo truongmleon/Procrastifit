@@ -1,0 +1,183 @@
+@import url("https://use.typekit.net/zmr3gei.css");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap");
+#contact-title, #drawing-title {
+  font-family: "myriad-pro", sans-serif;
+  font-style: normal;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 4vw;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.1960784314);
+}
+
+#board-list {
+  width: 80%;
+}
+
+#board-list li {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-size: 1.7vw;
+  padding: 5px;
+  position: relative;
+  left: 100px;
+}
+
+#board-title {
+  font-family: "Ysabeau Infant", sans-serif;
+  list-style-type: none;
+  font-size: 3vw !important;
+  left: 60px;
+  border-bottom: #000 double 9px;
+  width: 80%;
+}
+
+#error-title {
+  font-family: "Ysabeau Infant", sans-serif;
+  position: relative;
+  list-style-type: none;
+  font-size: 3vw;
+  left: 60px;
+  border-bottom: #000 double 9px;
+  width: 80%;
+}
+
+#error-paragraph {
+  position: relative;
+  font-family: "Ysabeau Infant", sans-serif;
+  left: 60px;
+  width: 80%;
+  font-size: 1.7vw;
+}
+
+#contact {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+#dragon {
+  width: 30%;
+  border: double 9px #000;
+  box-shadow: rgba(119, 119, 130, 0.25) 2px 5px 20px 5px;
+}
+
+#drawing-title {
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 970px) {
+  #error-paragraph {
+    font-size: 2vw;
+  }
+  #board-list li {
+    font-size: 2.2vw;
+  }
+  #contact-title {
+    font-size: 5vw;
+  }
+  #board-title, #error-title, #drawing-title {
+    font-size: 3.5vw !important;
+  }
+}
+@media screen and (max-width: 870px) {
+  #error-paragraph {
+    font-size: 3vw;
+  }
+  #board-list li {
+    font-size: 2.5vw;
+  }
+  #board-title, #error-title, #drawing-title {
+    font-size: 4.2vw !important;
+  }
+  #board-title {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 680px) {
+  #contact-title {
+    font-size: 6vw;
+  }
+  #board-title {
+    left: 30px !important;
+  }
+  #board-list li {
+    left: 80px;
+  }
+}
+@media screen and (max-width: 560px) {
+  #error-paragraph {
+    font-size: 3vw;
+  }
+  #board-list li {
+    left: 60px;
+    font-size: 2.8vw;
+  }
+  #board-title, #error-title, #drawing-title {
+    font-size: 4.2vw !important;
+  }
+  #dragon {
+    width: 50%;
+    border: double 9px #000;
+    box-shadow: rgba(119, 119, 130, 0.25) 2px 5px 20px 5px;
+  }
+}
+@media screen and (max-width: 560px) {
+  #error-paragraph {
+    font-size: 3.4vw;
+  }
+  #board-list li {
+    font-size: 3.2vw;
+  }
+  #board-title, #error-title, #drawing-title {
+    font-size: 4.5vw !important;
+  }
+}
+@media screen and (max-width: 440px) {
+  #error-paragraph {
+    font-size: 3.6vw;
+  }
+  #board-list li {
+    font-size: 3.4vw;
+    left: 50px;
+  }
+  #board-title, #error-title, #drawing-title {
+    font-size: 5vw !important;
+  }
+  #board-title {
+    left: 10px !important;
+  }
+  #error-title {
+    left: 40px;
+  }
+  #contact-title {
+    font-size: 7vw;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1960784314);
+  }
+}
+@media screen and (max-width: 390px) {
+  #error-paragraph {
+    font-size: 4vw;
+  }
+  #board-list li {
+    font-size: 4vw;
+    left: 50px;
+  }
+  #board-title, #error-title, #drawing-title {
+    font-size: 6vw !important;
+  }
+  #board-title {
+    left: 10px !important;
+  }
+  #error-title {
+    left: 40px;
+  }
+  #contact-title {
+    font-size: 8vw;
+  }
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,228 @@
+@import url("https://use.typekit.net/zmr3gei.css");
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+$font1: "myriad-pro", sans-serif;
+$font2: 'Bacasime Antique', serif;
+
+
+#instagram {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100% !important;
+    position: relative;
+    top: 340px;
+}
+
+#announcements-title {
+    font-family: $font1;
+    margin-top: 100px;
+    font-size: 4vw;
+    text-align: center !important;
+    user-select: none;
+    text-shadow: 4px 4px #00000032;
+}
+
+#disclaimer {
+    text-shadow: 4px 4px #00000032;
+    font-family: $font1;
+    font-size: 3.5vw;
+    text-align: center !important;
+    user-select: none;
+}
+
+#announcements-page {
+    width: 100%;
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#remind-title {
+    text-shadow: 4px 4px #00000032;
+    font-family: $font1;
+    margin-top: 620px;
+    font-size: 3vw;
+    text-align: center !important;
+    user-select: none;
+    border: 9px double #000;
+    background-color: #fff;
+    width: 60%;
+    transition: 0.3s;
+    box-shadow: rgba(50, 50, 93, 0.25) 20px 50px 100px 10px;
+}
+
+#remind-title:hover {
+    font-size: 3.1vw;
+    border: 12px double #000;
+    width: 65%;
+    height: 50%;
+    box-shadow: rgba(57, 57, 62, 0.25) 2px 5px 10px 5px;
+}
+
+.blog-section {
+    position: relative;
+    left: 90px;
+    width: 80%;
+}
+
+.blog-title {
+    font-family: $font2;
+    font-size: 3vw;
+    border-bottom: double 9px #000;
+    width: 90%;
+}
+
+.blog-paragraph {
+    font-family: $font2;
+    font-size: 1.4vw;
+    width: 80%;
+}
+
+.blog-img {
+    border: double 9px #000;
+    box-shadow: rgba(119, 119, 130, 0.25) 2px 5px 20px 5px;
+}
+
+@media screen and (max-width: 1230px)  {
+    .blog-paragraph {
+        font-size: 2vw;
+    }
+
+    #remind-title {
+        display: none;
+    } 
+
+    .instagram-media {
+        width: 40% !important;
+    }
+
+    #blog {
+        margin-top: 550px;
+    }
+}
+
+@media screen and (max-width: 1070px)  {
+    .blog-paragraph {
+        font-size: 2.4vw;
+    }
+
+    .blog-title {
+        font-size: 3.5vw;
+    }
+
+    #instagram {
+        top: 280px;
+    }
+}
+
+@media screen and (max-width: 970px)  {
+    .blog-paragraph {
+        font-size: 2.6vw;
+    }
+
+    .blog-img {
+        width: 300px;
+    }
+
+    #announcements-title {
+        font-size: 5vw;
+    }
+    
+    #disclaimer {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 680px)  {
+    #instagram {
+        display: grid;
+        top: 240px;
+    }
+
+    #blog {
+        margin-top: 800px;
+    }
+
+    .blog-paragraph {
+        font-size: 2.8vw;
+    }
+
+    .blog-title {
+        font-size: 3.7vw;
+    }
+
+    #announcements-title {
+        font-size: 6vw;
+    }
+
+    .blog-section {
+        left: 60px;
+    }
+}
+
+@media screen and (max-width: 560px)  {
+    .blog-paragraph {
+        font-size: 3vw;
+    }
+
+    .blog-title {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 500px)  {
+    .blog-paragraph {
+        font-size: 3.2vw;
+    }
+
+    #disclaimer {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 440px)  {
+    .blog-paragraph {
+        font-size: 3.5vw;
+    }
+
+    #disclaimer {
+        font-size: 5vw;
+    }
+
+    .blog-title {
+        font-size: 5vw;
+    }
+
+    .blog-section {
+        left: 50px;
+    }
+
+    #announcements-title {
+        font-size: 7vw;
+    }
+
+    #announcements-title, #disclaimer {
+        text-shadow: 2px 2px #00000032;
+    }
+}
+
+@media screen and (max-width: 390px)  {
+    .blog-paragraph {
+        font-size: 4vw;
+    }
+
+    #disclaimer {
+        font-size: 6vw;
+    }
+
+    .blog-title {
+        font-size: 6vw;
+    }
+
+    #announcements-title {
+        font-size: 8vw;
+    }
+}
