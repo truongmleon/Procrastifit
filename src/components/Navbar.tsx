@@ -6,7 +6,7 @@ const load = (id: string) => {
   id !== "home" ? window.location.href = id.replace(/\s+/g, '') + ".html" : window.location.href = "/";
 }
 
-const navRows: string[] = ["Home", "Resources", "Announcements", "Contact"];
+const navRows: string[] = ["Home", "Resources", "Announcements", "Service"];
 let htmlNav: React.ReactElement<any, string | React.JSXElementConstructor<any>> | JSX.Element[] = [];
 
 for (let i = 0; i < navRows.length; i++) {

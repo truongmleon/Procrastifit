@@ -10,7 +10,7 @@ export default defineConfig({
         main: 'index.html',
         resources: 'resources.html',
         announcements: 'announcements.html',
-        contact: 'contact.html',
+        service: 'service.html',
       },
     },
   },

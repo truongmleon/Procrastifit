@@ -19,13 +19,13 @@ for (let i = positions.length; i < instagrams.length; i++) {
     committee.push(<li>{names[i]} --{">"} <i>{emails[i]}</i> || <a href={instagrams[i]} target="_blank">Instagram</a></li>);
 }
 
-const Contact = () => {
+const Service = () => {
     useEffect(() => {
         AOS.init();
       }, [])
       
     return (
-        <div id="contact">
+        <div id="contact-page">
             <br/>
             <h1 id="contact-title">Looking for someone?</h1>  
 
@@ -54,4 +54,4 @@ const Contact = () => {
     )
 }
 
-export default Contact;
+export default Service;

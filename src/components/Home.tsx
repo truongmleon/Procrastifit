@@ -1,7 +1,7 @@
 const info = document.getElementById("info");
 
 info?.addEventListener("click", () =>{
-    window.open("https://www.youtube.com/watch?v=P5OpsyHhzwM");
+    window.open("https://youtu.be/PVv1n0GDN_w");
 });
 
 const Home = () => {
