@@ -13,10 +13,6 @@ const Announcements = () => {
         <div id="announcements-page">
             <h1 id="announcements-title">View the Instagram!🫶</h1>
             <h2 id="disclaimer">May not work under KSD internet :(</h2>
-
-            <div data-aos="fade-down" className="flex">
-            <h1 onClick={() => window.open("https://www.remind.com/join/kentwoodkc")} id="remind-title">Join Remind: text @kentwoodkc to 81010</h1>
-            </div>
             <br />
             <br />
             <article id="blog">

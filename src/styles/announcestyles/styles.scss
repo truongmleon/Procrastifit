@@ -40,28 +40,6 @@ $font2: 'Bacasime Antique', serif;
     justify-content: center;
 }
 
-#remind-title {
-    text-shadow: 4px 4px #00000032;
-    font-family: $font1;
-    margin-top: 620px;
-    font-size: 3vw;
-    text-align: center !important;
-    user-select: none;
-    border: 9px double #000;
-    background-color: #fff;
-    width: 60%;
-    transition: 0.3s;
-    box-shadow: rgba(50, 50, 93, 0.25) 20px 50px 100px 10px;
-}
-
-#remind-title:hover {
-    font-size: 3.1vw;
-    border: 12px double #000;
-    width: 65%;
-    height: 50%;
-    box-shadow: rgba(57, 57, 62, 0.25) 2px 5px 10px 5px;
-}
-
 .blog-section {
     position: relative;
     left: 90px;
@@ -90,10 +68,6 @@ $font2: 'Bacasime Antique', serif;
     .blog-paragraph {
         font-size: 2vw;
     }
-
-    #remind-title {
-        display: none;
-    } 
 
     .instagram-media {
         width: 40% !important;
