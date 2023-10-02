@@ -15,6 +15,17 @@ $font2: 'Ysabeau Infant', sans-serif;
     text-shadow: 4px 4px #00000032;
 }
 
+#club-title {
+    font-family: $font2;
+    font-style: normal;
+    margin-top: -50px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 7.4vw;
+    user-select: none;
+    text-shadow: 6px 6px #00000032;
+}
+
 #Layer_1 {
     width: 600px;
 }

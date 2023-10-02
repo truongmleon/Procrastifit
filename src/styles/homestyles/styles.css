@@ -14,6 +14,19 @@
   text-shadow: 4px 4px rgba(0, 0, 0, 0.1960784314);
 }
 
+#club-title {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-style: normal;
+  margin-top: -50px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 7.4vw;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  text-shadow: 6px 6px rgba(0, 0, 0, 0.1960784314);
+}
+
 #Layer_1 {
   width: 600px;
 }

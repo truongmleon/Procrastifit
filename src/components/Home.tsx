@@ -9,6 +9,7 @@ const Home = () => {
         <div id="home">
             <br/>
             <h1 id="title">Kentwood High School</h1>   
+            <h1 id="club-title">National Honors Society</h1> 
         </div>
     )
 }

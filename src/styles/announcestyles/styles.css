@@ -64,6 +64,10 @@
   box-shadow: rgba(119, 119, 130, 0.25) 2px 5px 20px 5px;
 }
 
+#blog {
+  margin-top: 650px;
+}
+
 @media screen and (max-width: 1230px) {
   .blog-paragraph {
     font-size: 2vw;
