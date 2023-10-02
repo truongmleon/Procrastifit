@@ -1,6 +1,6 @@
-# Key-Club-Website
+# National-Honors-Society-Site
 
-Key Club Webmaster during the 2023-2024 school year at my high school.
+Made to provide information quickly to NHS members.
 
 Run:
 ```
