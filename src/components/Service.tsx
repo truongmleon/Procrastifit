@@ -25,9 +25,9 @@ const Service = () => {
       }, [])
       
     return (
-        <div id="contact-page">
+        <div id="service-page">
             <br/>
-            <h1 id="contact-title">Looking for someone?</h1>  
+            <h1 id="service-title">Looking for someone?</h1>  
 
             <ul id="board-list">
                 <li id="board-title">2023-2024 Key Club Board :))</li>

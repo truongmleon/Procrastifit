@@ -1,6 +1,6 @@
 @import url("https://use.typekit.net/zmr3gei.css");
 @import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap");
-#contact-title, #drawing-title {
+#service-title, #drawing-title {
   font-family: "myriad-pro", sans-serif;
   font-style: normal;
   margin-top: 80px;
@@ -51,7 +51,7 @@
   font-size: 1.7vw;
 }
 
-#contact-page {
+#service-page {
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -78,7 +78,7 @@
   #board-list li {
     font-size: 2.2vw;
   }
-  #contact-title {
+  #service-title {
     font-size: 5vw;
   }
   #board-title, #error-title, #drawing-title {
@@ -100,7 +100,7 @@
   }
 }
 @media screen and (max-width: 680px) {
-  #contact-title {
+  #service-title {
     font-size: 6vw;
   }
   #board-title {
@@ -155,7 +155,7 @@
   #error-title {
     left: 40px;
   }
-  #contact-title {
+  #service-title {
     font-size: 7vw;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.1960784314);
   }
@@ -177,7 +177,7 @@
   #error-title {
     left: 40px;
   }
-  #contact-title {
+  #service-title {
     font-size: 8vw;
   }
 }/*# sourceMappingURL=styles.css.map */

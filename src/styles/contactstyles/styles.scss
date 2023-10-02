@@ -4,7 +4,7 @@
 $font1: "myriad-pro", sans-serif;
 $font2: 'Ysabeau Infant', sans-serif;
 
-#contact-title, #drawing-title {
+#service-title, #drawing-title {
     font-family: $font1;
     font-style: normal;
     margin-top: 80px;
@@ -53,7 +53,7 @@ $font2: 'Ysabeau Infant', sans-serif;
     font-size: 1.7vw;
 }
 
-#contact-page {
+#service-page {
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -82,7 +82,7 @@ $font2: 'Ysabeau Infant', sans-serif;
         font-size: 2.2vw;
     }
 
-    #contact-title {
+    #service-title {
         font-size: 5vw;
     }
 
@@ -110,7 +110,7 @@ $font2: 'Ysabeau Infant', sans-serif;
 }
 
 @media screen and (max-width: 680px) {
-    #contact-title {
+    #service-title {
         font-size: 6vw;
     }
 
@@ -180,7 +180,7 @@ $font2: 'Ysabeau Infant', sans-serif;
         left: 40px;
     }
 
-    #contact-title {
+    #service-title {
         font-size: 7vw;
         text-shadow: 2px 2px #00000032;
     }
@@ -208,7 +208,7 @@ $font2: 'Ysabeau Infant', sans-serif;
         left: 40px;
     }
 
-    #contact-title {
+    #service-title {
         font-size: 8vw;
     }
 }
