@@ -45,13 +45,15 @@
   width: 170px;
 }
 
-#int {
+#nhs {
   position: relative;
   padding: 15px;
+  width: 400px;
 }
 
-#key {
+#lead {
   padding: 15px;
+  width: 400px;
 }
 
 #images {
@@ -61,7 +63,7 @@
   position: relative;
 }
 
-#int, #key, #kw {
+#nhs, #lead, #kw {
   box-shadow: 7px 7px 13px 2px rgba(100, 100, 100, 0.2);
   z-index: 1;
   -webkit-user-select: none;
