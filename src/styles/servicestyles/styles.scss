@@ -4,7 +4,7 @@
 $font1: "myriad-pro", sans-serif;
 $font2: 'Ysabeau Infant', sans-serif;
 
-#service-title, #drawing-title {
+#service-title {
     font-family: $font1;
     font-style: normal;
     margin-top: 80px;
@@ -63,16 +63,6 @@ $font2: 'Ysabeau Infant', sans-serif;
     justify-content: center;
 }
 
-#dragon {
-    width: 30%;
-    border: double 9px #000;
-    box-shadow: rgba(119, 119, 130, 0.25) 2px 5px 20px 5px;
-}
-
-#drawing-title {
-    margin-top: 0px;
-}
-
 @media screen and (max-width: 970px) {
     #error-paragraph {
         font-size: 2vw;
@@ -86,7 +76,7 @@ $font2: 'Ysabeau Infant', sans-serif;
         font-size: 5vw;
     }
 
-    #board-title, #error-title, #drawing-title {
+    #board-title, #error-title {
         font-size: 3.5vw !important;
     }
 }
@@ -100,7 +90,7 @@ $font2: 'Ysabeau Infant', sans-serif;
         font-size: 2.5vw;
     }
 
-    #board-title, #error-title, #drawing-title {
+    #board-title, #error-title {
         font-size: 4.2vw !important;
     }
 
@@ -133,14 +123,8 @@ $font2: 'Ysabeau Infant', sans-serif;
         font-size: 2.8vw;
     }
 
-    #board-title, #error-title, #drawing-title {
+    #board-title, #error-title {
         font-size: 4.2vw !important;
-    }
-
-    #dragon {
-        width: 50%;
-        border: double 9px #000;
-        box-shadow: rgba(119, 119, 130, 0.25) 2px 5px 20px 5px;
     }
 }
 
@@ -153,7 +137,7 @@ $font2: 'Ysabeau Infant', sans-serif;
         font-size: 3.2vw;
     }
 
-    #board-title, #error-title, #drawing-title {
+    #board-title, #error-title {
         font-size: 4.5vw !important;
     }
 }
@@ -168,7 +152,7 @@ $font2: 'Ysabeau Infant', sans-serif;
         left: 50px;
     }
 
-    #board-title, #error-title, #drawing-title {
+    #board-title, #error-title {
         font-size: 5vw !important;
     }
 
@@ -196,7 +180,7 @@ $font2: 'Ysabeau Infant', sans-serif;
         left: 50px;
     }
 
-    #board-title, #error-title, #drawing-title {
+    #board-title, #error-title {
         font-size: 6vw !important;
     }
 

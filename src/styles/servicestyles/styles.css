@@ -1,6 +1,6 @@
 @import url("https://use.typekit.net/zmr3gei.css");
 @import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap");
-#service-title, #drawing-title {
+#service-title {
   font-family: "myriad-pro", sans-serif;
   font-style: normal;
   margin-top: 80px;
@@ -61,16 +61,6 @@
   justify-content: center;
 }
 
-#dragon {
-  width: 30%;
-  border: double 9px #000;
-  box-shadow: rgba(119, 119, 130, 0.25) 2px 5px 20px 5px;
-}
-
-#drawing-title {
-  margin-top: 0px;
-}
-
 @media screen and (max-width: 970px) {
   #error-paragraph {
     font-size: 2vw;
@@ -81,7 +71,7 @@
   #service-title {
     font-size: 5vw;
   }
-  #board-title, #error-title, #drawing-title {
+  #board-title, #error-title {
     font-size: 3.5vw !important;
   }
 }
@@ -92,7 +82,7 @@
   #board-list li {
     font-size: 2.5vw;
   }
-  #board-title, #error-title, #drawing-title {
+  #board-title, #error-title {
     font-size: 4.2vw !important;
   }
   #board-title {
@@ -118,13 +108,8 @@
     left: 60px;
     font-size: 2.8vw;
   }
-  #board-title, #error-title, #drawing-title {
+  #board-title, #error-title {
     font-size: 4.2vw !important;
-  }
-  #dragon {
-    width: 50%;
-    border: double 9px #000;
-    box-shadow: rgba(119, 119, 130, 0.25) 2px 5px 20px 5px;
   }
 }
 @media screen and (max-width: 560px) {
@@ -134,7 +119,7 @@
   #board-list li {
     font-size: 3.2vw;
   }
-  #board-title, #error-title, #drawing-title {
+  #board-title, #error-title {
     font-size: 4.5vw !important;
   }
 }
@@ -146,7 +131,7 @@
     font-size: 3.4vw;
     left: 50px;
   }
-  #board-title, #error-title, #drawing-title {
+  #board-title, #error-title {
     font-size: 5vw !important;
   }
   #board-title {
@@ -168,7 +153,7 @@
     font-size: 4vw;
     left: 50px;
   }
-  #board-title, #error-title, #drawing-title {
+  #board-title, #error-title {
     font-size: 6vw !important;
   }
   #board-title {

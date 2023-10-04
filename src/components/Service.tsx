@@ -44,12 +44,6 @@ const Service = () => {
             Free feel to contribute 🫵 to it by letting me (Leon Truong) know or by making a <a href="https://github.com/truongmleon/Key-Club-Website/tree/main" target="_blank">pull request</a>. 
             This is an open source project under the <a href="https://github.com/truongmleon/Key-Club-Website/blob/main/LICENSE" target="_blank">MIT License</a>!</p>
             
-            <h2 data-aos="zoom-in-left" id="drawing-title">Anthony's Drawing of the D32 Mascot :0</h2>
-            <div className="flex">
-            <img alt="drawing of d32 dragon" data-aos="flip-right" id="dragon" src={dragon}></img>
-            </div>
-            <br />
-            <br />
         </div>
     )
 }
