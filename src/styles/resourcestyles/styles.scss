@@ -89,7 +89,9 @@ $font2: 'Ysabeau Infant', sans-serif;
 #values {
     font-family: $font1;
     font-size: 2vw;
+    margin-top: 80px;
     text-align: center;
+    width: 70%;
 }
 
 @media screen and (max-width: 1230px)  {

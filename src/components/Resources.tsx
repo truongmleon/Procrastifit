@@ -43,7 +43,7 @@ const Resources = () => {
             <ul id="links">
                 {meetingLinks}
             </ul>
-            <h3 data-aos="zoom-in-down" id="values">~Caring–Our Way of Life</h3>
+            <h3 data-aos="zoom-in-down" id="values">"Whether your school’s student leadership is flourishing, emerging, or somewhere in-between, NHS is for you."</h3>
             <br />
             <br />
             <br />

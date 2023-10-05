@@ -87,7 +87,9 @@
 #values {
   font-family: "myriad-pro", sans-serif;
   font-size: 2vw;
+  margin-top: 80px;
   text-align: center;
+  width: 70%;
 }
 
 @media screen and (max-width: 1230px) {
