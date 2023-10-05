@@ -4,6 +4,10 @@
 $font1: "myriad-pro", sans-serif;
 $font2: 'Ysabeau Infant', sans-serif;
 
+#no-over {
+    overflow-x: hidden;
+}
+
 #title {
     font-family: $font1;
     font-style: normal;

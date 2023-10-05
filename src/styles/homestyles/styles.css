@@ -1,5 +1,9 @@
 @import url("https://use.typekit.net/zmr3gei.css");
 @import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital@0;1&display=swap");
+#no-over {
+  overflow-x: hidden;
+}
+
 #title {
   font-family: "myriad-pro", sans-serif;
   font-style: normal;
