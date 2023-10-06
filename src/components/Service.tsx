@@ -11,13 +11,18 @@ const Service = () => {
         <div id="service-page">
             <br/>
             <h1 id="service-title">Service!</h1>  
-            <ul id="board-list">
-                <li id="board-title">My Favorite Past Service Events (2022-2023) :))</li>
+            <ul className="event-list">
+                <li className="event-title">My Favorite Past Service Events (2022-2023) :))</li>
                 <li>Holiday Teacher Card Making + Gingerbread House Raffle</li>
                 <li>Book Drive for KCLS</li>
                 <li>Agricultural Club Collab @ the Greenhouse</li>
                 <li>Health Equity Collab w/ Card Making for Elderly Homes</li>
                 <li>Tutoring opportunity at Sunrise Elementary School</li>
+            </ul> 
+            <ul className="event-list">
+                <li className="event-title">Ongoing Events :3</li>
+                <li>Holiday Teacher Card Making + Gingerbread House Raffle</li>
+                <li>Book Drive for KCLS</li>
             </ul> 
 
             <h2 data-aos="zoom-in-right" id="error-title">See an error with the site? 🫡</h2>

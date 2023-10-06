@@ -12,11 +12,11 @@
   text-shadow: 4px 4px rgba(0, 0, 0, 0.1960784314);
 }
 
-#board-list {
+.event-list {
   width: 80%;
 }
 
-#board-list li {
+.event-list li {
   font-family: "Ysabeau Infant", sans-serif;
   font-size: 1.7vw;
   padding: 5px;
@@ -24,7 +24,7 @@
   left: 100px;
 }
 
-#board-title {
+.event-title {
   font-family: "Ysabeau Infant", sans-serif;
   list-style-type: none;
   font-size: 3vw !important;
@@ -65,13 +65,13 @@
   #error-paragraph {
     font-size: 2vw;
   }
-  #board-list li {
+  .event-list li {
     font-size: 2.2vw;
   }
   #service-title {
     font-size: 5vw;
   }
-  #board-title, #error-title {
+  .event-title, #error-title {
     font-size: 3.5vw !important;
   }
 }
@@ -79,13 +79,13 @@
   #error-paragraph {
     font-size: 3vw;
   }
-  #board-list li {
+  .event-list li {
     font-size: 2.5vw;
   }
-  #board-title, #error-title {
+  .event-title, #error-title {
     font-size: 4.2vw !important;
   }
-  #board-title {
+  .event-title {
     width: 100%;
   }
 }
@@ -93,10 +93,10 @@
   #service-title {
     font-size: 6vw;
   }
-  #board-title {
+  .event-title {
     left: 30px !important;
   }
-  #board-list li {
+  .event-list li {
     left: 80px;
   }
 }
@@ -104,11 +104,11 @@
   #error-paragraph {
     font-size: 3vw;
   }
-  #board-list li {
+  .event-list li {
     left: 60px;
     font-size: 2.8vw;
   }
-  #board-title, #error-title {
+  .event-title, #error-title {
     font-size: 4.2vw !important;
   }
 }
@@ -116,10 +116,10 @@
   #error-paragraph {
     font-size: 3.4vw;
   }
-  #board-list li {
+  .event-list li {
     font-size: 3.2vw;
   }
-  #board-title, #error-title {
+  .event-title, #error-title {
     font-size: 4.5vw !important;
   }
 }
@@ -127,14 +127,14 @@
   #error-paragraph {
     font-size: 3.6vw;
   }
-  #board-list li {
+  .event-list li {
     font-size: 3.4vw;
     left: 50px;
   }
-  #board-title, #error-title {
+  .event-title, #error-title {
     font-size: 5vw !important;
   }
-  #board-title {
+  .event-title {
     left: 10px !important;
   }
   #error-title {
@@ -149,14 +149,14 @@
   #error-paragraph {
     font-size: 4vw;
   }
-  #board-list li {
+  .event-list li {
     font-size: 4vw;
     left: 50px;
   }
-  #board-title, #error-title {
+  .event-title, #error-title {
     font-size: 6vw !important;
   }
-  #board-title {
+  .event-title {
     left: 10px !important;
   }
   #error-title {
