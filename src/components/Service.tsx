@@ -27,7 +27,8 @@ const Service = () => {
                     <li className="event-info">Students who use UPchieve are typically economically disadvantaged students; you'll make a large impact!</li>
                     <li className="event-info">Consider that a significant part of Kentwood's student body receives Free/Reduced Lunch</li>
                 </li>
-                <li>Book Drive for KCLS</li>
+                <a href="https://play.freerice.com/profile-login">FREERICE</a> (Indefinite)
+                <li className="event-info">Tutor from elementary English/math/science to the high school level (I enjoy tutoring AP Calculus!)</li> 
             </ul> 
 
             <h2 data-aos="zoom-in-right" id="error-title">See an error with the site? 🫡</h2>
