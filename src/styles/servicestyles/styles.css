@@ -29,6 +29,7 @@
   list-style-type: none;
   font-size: 3vw !important;
   left: 60px;
+  margin-top: 60px;
   border-bottom: #000 double 9px;
   width: 80%;
 }
