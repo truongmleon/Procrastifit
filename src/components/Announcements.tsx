@@ -19,9 +19,10 @@ const Announcements = () => {
                 <section className="blog-section">
                     <h2 data-aos="flip-left" className="blog-title blog-link"><a href="https://www.youtube.com/watch?v=PVv1n0GDN_w" target="_blank">Next Meeting October 19th!</a></h2>
                     <ul className="blog-paragraph">
-                        <li data-aos="fade-up">Join us as we elect for our 3rd NHS Officer</li>
-                        <li data-aos="fade-up">As always, snacks are provided at every meeting</li>
-                        <li data-aos="fade-up">Slides will contain our first service events</li>
+                        <li data-aos="fade-left">Join us as we elect for our 3rd NHS Officer</li>
+                        <li data-aos="fade-right">As always, snacks are provided at every meeting</li>
+                        <li data-aos="fade-left">Slides will contain our first service events</li>
+                        <li data-aos="fade-right">Also we have Club Rush on the 12th!</li>
                     </ul>
                 </section>
             </article>
