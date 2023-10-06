@@ -27,8 +27,15 @@ const Service = () => {
                     <li className="event-info">Students who use UPchieve are typically economically disadvantaged students; you'll make a large impact!</li>
                     <li className="event-info">Consider that a significant part of Kentwood's student body receives Free/Reduced Lunch</li>
                 </li>
-                <a href="https://play.freerice.com/profile-login">FREERICE</a> (Indefinite)
-                <li className="event-info">Tutor from elementary English/math/science to the high school level (I enjoy tutoring AP Calculus!)</li> 
+
+                <li>
+                    <a href="https://play.freerice.com/profile-login" target="_blank">FREERICE</a> (Indefinite)
+                    <li className="event-info">I suggest creating an account to keep track of your progress</li> 
+                    <li className="event-info">For every question answered correctly, 10 grams of rice is donated for the World Food Programme</li>
+                    <li className="event-info">Questions include science, math, humanities, and foreign language</li>
+                    <li className="event-info">I highly encourage using this as a possible learning website instead of simply service hours (learning my French vocab has been pretty nice!)</li>
+                    <li className="event-info">Use this <a href="https://docs.wfp.org/api/documents/WFP-0000145023/download/" target="_blank">form</a> to submit hours</li>
+                </li>
             </ul> 
 
             <h2 data-aos="zoom-in-right" id="error-title">See an error with the site? 🫡</h2>
