@@ -2,13 +2,11 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const dates = ["September 28th, 2023", "October 16th, 2023", "September 12th, 2023", "September 18th, 2023", "October 2nd, 2023", "October 30th, 2023", "November 13th, 2023", "November 27th, 2023", "December 4th, 2023", "January 8th, 2024", "January 29th, 2024", "February 26th, 2024", "March 18th, 2024", "April 1st, 2024", "April 15th, 2024", "April 29th, 2024", "May 20th, 2024"];
+const dates = ["September 28th, 2023", "October 16th, 2023"];
 const slides = [
     "/src/files/1st.pdf",
+    "#",
 ];
-const docs = [
-    "/src/files/service.pdf"
-]
 
 let meetingLinks: React.ReactElement<any, string | React.JSXElementConstructor<any>> | JSX.Element[] = [];
 
@@ -34,10 +32,8 @@ const Resources = () => {
             <div id="btn-grid">
             <a href="https://forms.office.com/r/RuciMK1Y87" target="_blank"><button>Membership Form</button></a>
             <a href="https://forms.office.com/r/EdrZ3XPLJ5" target="_blank"><button>Hour Submission Form</button></a>
-            <a href={docs[0]} download="service.pdf" target="_blank"><button>Community Service Sheet</button></a>
-            <a href="" target="_blank"><button>Missed Meeting Form</button></a>
-            <a href="" target="_blank"><button>Election Interest Slides</button></a>
-            <a href="" target="_blank"><button>DCON Info</button></a>
+            <a href="/src/files/service.pdf" download="service.pdf" target="_blank"><button>Community Service Sheet</button></a>
+            <a href="https://forms.office.com/r/0pknGeFxec" target="_blank"><button>Officer Interest Form</button></a>
             </div>
             <h2 id="slides" className="note">Meeting slides..</h2>
             <ul id="links">
