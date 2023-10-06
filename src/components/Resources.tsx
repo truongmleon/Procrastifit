@@ -27,6 +27,7 @@ const Resources = () => {
                 <li>Meetings held in Mrs. Berry's 📚 room (160) after-school on <b>selected</b> Thursdays</li>
                 <li>Members are required to complete <u>10 hours</u> per semester to stay as a member of NHS 👀</li>
                 <li>Are you a senior? Complete <u>40 hours</u> in your NHS career for an NHS Cord 🤩 (<u>30 hours</u> if this is your first year)</li>
+                <li>Email Leon if you would like to know your hours (I have 2021-2022 & 2022-2023 hours too)</li>
                 <li>A meeting consists of slides with service opportunities, quick announcements, in-school service activities, and more!</li>
             </ul>
             <div id="btn-grid">
