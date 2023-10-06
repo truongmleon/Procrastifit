@@ -35,6 +35,12 @@ $font2: 'Ysabeau Infant', sans-serif;
     width: 80%;
 }
 
+.event-info {
+    width: 60vw;
+    list-style-type: circle;
+    margin-left: -60px;
+}
+
 #error-title {
     font-family: $font2;
     position: relative;
