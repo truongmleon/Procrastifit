@@ -39,6 +39,10 @@
   margin-left: -66px;
 }
 
+.event {
+  font-size: 2vw;
+}
+
 #error-title {
   font-family: "Ysabeau Infant", sans-serif;
   position: relative;

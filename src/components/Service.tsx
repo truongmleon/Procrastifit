@@ -22,19 +22,27 @@ const Service = () => {
             <ul className="event-list">
                 <li className="event-title">Ongoing Events :3</li>
                 <li> 
-                    <a href="https://upchieve.org/volunteer-with-us" target="_blank">UPchieve</a> (Indefinite)
+                    <b><a className="event" href="https://upchieve.org/volunteer-with-us" target="_blank">UPchieve</a> (Indefinite)</b>
                     <li className="event-info">Tutor from elementary English/math/science to the high school level (I enjoy tutoring AP Calculus!)</li>
                     <li className="event-info">Students who use UPchieve are typically economically disadvantaged students; you'll make a large impact!</li>
                     <li className="event-info">Consider that a significant part of Kentwood's student body receives Free/Reduced Lunch</li>
                 </li>
 
                 <li>
-                    <a href="https://play.freerice.com/profile-login" target="_blank">FREERICE</a> (Indefinite)
+                    <b><a className="event" href="https://play.freerice.com/profile-login" target="_blank">FREERICE</a> (Indefinite)</b>
                     <li className="event-info">I suggest creating an account to keep track of your progress</li> 
                     <li className="event-info">For every question answered correctly, 10 grams of rice is donated for the World Food Programme</li>
                     <li className="event-info">Questions include science, math, humanities, and foreign language</li>
                     <li className="event-info">I highly encourage using this as a possible learning website instead of simply service hours (learning my French vocab has been pretty nice!)</li>
                     <li className="event-info">Use this <a href="https://docs.wfp.org/api/documents/WFP-0000145023/download/" target="_blank">form</a> to submit hours</li>
+                </li>
+
+                <li>
+                    <b><a className="event" href="https://www.bemyeyes.com/" target="_blank">Be My Eyes</a> (Indefinite)</b>
+                    <li className="event-info">A good chunk of people have vision problems and would gladly need the extra help</li>
+                    <li className="event-info">You will get in a video call assisting the visually impaired with everyday tasks</li>
+                    <li className="event-info"><a href="https://apps.apple.com/us/app/be-my-eyes/id905177575?pt=15492800&ct=BeMyEyesWebsite&mt=8" target="_blank">App Store</a></li>
+                    <li className="event-info"><a href="https://play.google.com/store/apps/details?id=com.bemyeyes.bemyeyes" target="_blank">Google Play</a></li>
                 </li>
             </ul> 
 
