@@ -41,7 +41,7 @@
 }
 
 .event {
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 #error-title {
@@ -86,7 +86,7 @@
     font-size: 3.5vw !important;
   }
   .event {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
 }
 @media screen and (max-width: 870px) {
@@ -103,7 +103,7 @@
     width: 100%;
   }
   .event {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
 @media screen and (max-width: 680px) {
@@ -129,7 +129,7 @@
     font-size: 4.5vw !important;
   }
   .event {
-    font-size: 3.5vw;
+    font-size: 4.5vw;
   }
 }
 @media screen and (max-width: 440px) {
@@ -154,7 +154,7 @@
     text-shadow: 2px 2px rgba(0, 0, 0, 0.1960784314);
   }
   .event {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 }
 @media screen and (max-width: 390px) {
