@@ -178,6 +178,9 @@
   #about {
     left: 80px;
   }
+  #club-title {
+    text-shadow: none;
+  }
 }
 @media screen and (max-width: 560px) {
   .emphasis, .info-paragraph {

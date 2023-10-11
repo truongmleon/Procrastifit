@@ -85,6 +85,9 @@
   .event-title, #error-title {
     font-size: 3.5vw !important;
   }
+  .event {
+    font-size: 2.5vw;
+  }
 }
 @media screen and (max-width: 870px) {
   #error-paragraph {
@@ -98,6 +101,9 @@
   }
   .event-title {
     width: 100%;
+  }
+  .event {
+    font-size: 3vw;
   }
 }
 @media screen and (max-width: 680px) {
@@ -113,25 +119,17 @@
 }
 @media screen and (max-width: 560px) {
   #error-paragraph {
-    font-size: 3vw;
-  }
-  .event-list li {
-    left: 60px;
-    font-size: 2.8vw;
-  }
-  .event-title, #error-title {
-    font-size: 4.2vw !important;
-  }
-}
-@media screen and (max-width: 560px) {
-  #error-paragraph {
     font-size: 3.4vw;
   }
   .event-list li {
     font-size: 3.2vw;
+    left: 60px;
   }
   .event-title, #error-title {
     font-size: 4.5vw !important;
+  }
+  .event {
+    font-size: 3.5vw;
   }
 }
 @media screen and (max-width: 440px) {
@@ -154,6 +152,9 @@
   #service-title {
     font-size: 7vw;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.1960784314);
+  }
+  .event {
+    font-size: 4vw;
   }
 }
 @media screen and (max-width: 390px) {
