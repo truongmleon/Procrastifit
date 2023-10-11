@@ -152,6 +152,10 @@ $font2: 'Ysabeau Infant', sans-serif;
     .emphasis, .info-paragraph {
         font-size: 2.3vw;
     }
+
+    #club-title {
+        margin-top: -20px;
+    }
 }
 
 @media screen and (max-width: 680px) {
