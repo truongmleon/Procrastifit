@@ -2,10 +2,10 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const dates = ["September 28th, 2023", "October 16th, 2023"];
+const dates = ["September 28th, 2023", "October 19th, 2023"];
 const slides = [
     "/src/files/1st.pdf",
-    "#",
+    "/src/files/2nd.pdf",
 ];
 
 let meetingLinks: React.ReactElement<any, string | React.JSXElementConstructor<any>> | JSX.Element[] = [];
