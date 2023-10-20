@@ -34,7 +34,7 @@ const Resources = () => {
             <div id="btn-grid">
             <a href="https://forms.office.com/r/RuciMK1Y87" target="_blank"><button>Membership Form</button></a>
             <a href="https://forms.office.com/r/EdrZ3XPLJ5" target="_blank"><button>Hour Submission Form</button></a>
-            <a href="/src/files/service.pdf" download="service.pdf" target="_blank"><button>Community Service Sheet</button></a>
+            <a href="/src/files/service.pdf" download target="_blank"><button>Community Service Sheet</button></a>
             <a href="https://forms.office.com/r/0pknGeFxec" target="_blank"><button>Officer Interest Form</button></a>
             </div>
             <h2 id="slides" className="note">Meeting slides..</h2>
