@@ -11,7 +11,7 @@ const slides = [
 let meetingLinks: React.ReactElement<any, string | React.JSXElementConstructor<any>> | JSX.Element[] = [];
 
 for (let i = 0; i < slides.length; i++) {
-    meetingLinks.push(<li data-aos="zoom-in-down"><a href={slides[i]} target="_blank">{dates[i]}</a></li>);
+    meetingLinks.push(<li data-aos="zoom-in-down"><a download={slides[i]} href={slides[i]} target="_blank">{dates[i]}</a></li>);
 }
 
 const Resources = () => {
