@@ -11,6 +11,8 @@ export default defineConfig({
         resources: 'resources.html',
         announcements: 'announcements.html',
         service: 'service.html',
+        one: "src/files/1st.pdf",
+        two: "src/files/2nd.pdf",
       },
     },
   },
