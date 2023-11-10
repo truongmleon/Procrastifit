@@ -4,11 +4,13 @@ import "aos/dist/aos.css";
 import servicepaper from "/src/files/service.pdf";
 import one from "/src/files/1st.pdf";
 import two from  "/src/files/2nd.pdf";
+import three from "/src/files/3rd.pdf";
 
-const dates = ["September 28th, 2023", "October 19th, 2023"];
+const dates = ["September 28th, 2023", "October 19th, 2023", "November 9th, 2023"];
 const slides = [
     one,
-    two
+    two,
+    three
 ];
 
 let meetingLinks: React.ReactElement<any, string | React.JSXElementConstructor<any>> | JSX.Element[] = [];
