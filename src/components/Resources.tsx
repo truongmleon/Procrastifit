@@ -35,7 +35,7 @@ const Resources = () => {
                 <li>A meeting consists of slides with service opportunities, quick announcements, in-school service activities, and more!</li>
             </ul>
             <div id="btn-grid">
-            <a href="https://forms.office.com/r/RuciMK1Y87" target="_blank"><button>Membership Form</button></a>
+            <a href="https://forms.office.com/r/EZcyyet9hw" target="_blank"><button>Membership Form</button></a>
             <a href="https://forms.office.com/r/EdrZ3XPLJ5" target="_blank"><button>Hour Submission Form</button></a>
             <a href={servicepaper} download target="_blank"><button>Community Service Sheet</button></a>
             <a href="https://forms.office.com/r/0pknGeFxec" target="_blank"><button>Officer Interest Form</button></a>
