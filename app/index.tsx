@@ -1,7 +1,6 @@
 import { Image, StyleSheet, TextInput, View, StatusBar } from 'react-native';
 import React, { useState } from 'react';
 import * as AppleAuthentication from 'expo-apple-authentication';
-import { ThemedText } from '@/components/ThemedText';
 
 export default function App() {
   const [email, setEmail] = useState('');
