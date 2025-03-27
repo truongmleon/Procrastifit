@@ -1,5 +1,6 @@
-import { Image, StyleSheet, TextInput, View, StatusBar, Text, Button } from 'react-native';
+import { Image, StyleSheet, TextInput, View, StatusBar, Text, TouchableOpacity } from 'react-native';
 import React, { useState } from 'react';
+import * as Haptics from 'expo-haptics';
 import * as AppleAuthentication from 'expo-apple-authentication';
 
 const AppleButton: React.FC = () => {
@@ -9,6 +10,7 @@ const AppleButton: React.FC = () => {
     cornerRadius={100}
     style={styles.button}
     onPress={async () => {
+      Haptics.selectionAsync()
       try {
         const credential = await AppleAuthentication.signInAsync({
           requestedScopes: [
@@ -28,6 +30,14 @@ const AppleButton: React.FC = () => {
       }
     }}
   />
+}
+
+const regularSignIn = () => {
+    Haptics.selectionAsync()
+}
+
+const forgotPassword = () => {
+    Haptics.selectionAsync()
 }
 
 export default function App() {
@@ -61,17 +71,33 @@ export default function App() {
         value={password}
         onChangeText={setPassword}
       />
-      <Button
-        title="Sign in"
-        accessibilityLabel="sign-in"
-        />
+      <TouchableOpacity
+        style={styles.button}
+        onPress={forgotPassword}
+      >
+        <Text style={styles.redirects}>Forgot Password?</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+      style={styles.button}
+        onPress={regularSignIn}
+      >
+        <Text style={styles.signButton}>Sign in</Text>
+      </TouchableOpacity>
       <View style={styles.otherSignIn}>
         <View style={styles.line} />
-        <Text style={styles.text}>or</Text>
+        <Text style={styles.otherText}>or</Text>
         <View style={styles.line} />
       </View>
       <AppleButton />
       </View>
+      <Text style={styles.signup}>New here? Whatever.
+        <TouchableOpacity
+        style={styles.button}
+        onPress={forgotPassword}>
+          <Text style={styles.redirects}>Join and lock in.</Text>
+      </TouchableOpacity>
+      </Text>
+      
     </View>
   );
 }
@@ -81,7 +107,7 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "10%",
     resizeMode: 'contain',
-    transform: [{ translateY: "-120%" }],
+    transform: [{ translateY: "-110%" }],
   },
   input: {
     height: "12%",
@@ -98,6 +124,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: '#ecf0f1',
   },
+  redirects: {
+    color: "#007cce",
+    textAlign: 'left',
+  },
   signin: {
     width: "89%",
     color: '#000000',
@@ -107,24 +137,32 @@ const styles = StyleSheet.create({
     padding: 15,
     paddingBottom: 5
   },
+  signup: {
+    marginTop: -20
+  },
   signButton: {
     color: "#fafafa",
     backgroundColor: "#007cce",
     borderRadius: 100,
+    height: 44,
+    textAlign: 'center',
+    paddingTop: 10,
   },
   card: {
+    transform: [{ translateY: "-10%" }],
     alignContent: 'center',
     alignItems: 'center',
     width: "85%",
-    shadowColor: 'rgba(116, 120, 124, 0.2)',
-    shadowOffset: {width: 24, height: 20},
+    height: "55%",
+    shadowColor: 'rgba(76, 78, 81, 0.2)',
+    shadowOffset: {width: 24, height: 30},
     shadowOpacity: 0.2,
     shadowRadius: 3,
     backgroundColor: '#fafeff',
     borderRadius: 9,
   },
   button: {
-    width: 200,
+    width: "80%",
     height: 44,
     borderRadius: 100,
   },
@@ -140,7 +178,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 30,
     backgroundColor: '#A9A9A9',
   },
-  text: {
+  otherText: {
     marginHorizontal: -20,
     color: '#A9A9A9',
     fontSize: 16,
