@@ -40,15 +40,29 @@ const forgotPassword = () => {
     Haptics.selectionAsync()
 }
 
+const signUp = () => {
+    Haptics.selectionAsync()
+}
+
 export default function App() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [isPasswordVisible, setIsPasswordVisible] = useState(false);
+
+  const showPassword = () => {
+    Haptics.selectionAsync();
+    
+    if (isPasswordVisible) {
+        setIsPasswordVisible(false)
+    }
+    else {
+        setIsPasswordVisible(true)
+    }
+}
 
   return (
     <View style={styles.container}>
-  <StatusBar backgroundColor="#000000" barStyle="dark-content" translucent={false} />
-
-      <Image
+<StatusBar backgroundColor="#000000" barStyle="light-content" translucent={false} />      <Image
         source={require('../assets/images/logo.png')} 
         style={styles.logo}
       />
@@ -63,7 +77,7 @@ export default function App() {
         onChangeText={setEmail}
       />
       <TextInput
-      secureTextEntry
+        secureTextEntry={!isPasswordVisible}
         style={styles.input}
         autoComplete="password"
         placeholder='Password'
@@ -71,6 +85,12 @@ export default function App() {
         value={password}
         onChangeText={setPassword}
       />
+      <TouchableOpacity
+      style={styles.hideShow}>
+        <Text 
+        onPress={() => {showPassword()}}
+        style={styles.showPW}>Show</Text>
+      </TouchableOpacity>
       <TouchableOpacity
         style={styles.button}
         onPress={forgotPassword}
@@ -93,11 +113,10 @@ export default function App() {
       <Text style={styles.signup}>New here? Whatever.
         <TouchableOpacity
         style={styles.button}
-        onPress={forgotPassword}>
+        onPress={signUp}>
           <Text style={styles.redirects}>Join and lock in.</Text>
       </TouchableOpacity>
       </Text>
-      
     </View>
   );
 }
@@ -107,7 +126,7 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "10%",
     resizeMode: 'contain',
-    transform: [{ translateY: "-110%" }],
+    transform: [{ translateY: "-90%" }],
   },
   input: {
     height: "12%",
@@ -117,6 +136,15 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     padding: 10,
     borderColor: '#A9A9A9',
+  },
+  hideShow: {
+    paddingLeft: 170,
+    transform: [{ translateY: "-270%" }],
+  },
+  showPW: {
+    color: "#007cce",
+    textAlign: 'right',
+    fontSize: 12,
   },
   container: {
     flex: 1,
@@ -153,7 +181,7 @@ const styles = StyleSheet.create({
     alignContent: 'center',
     alignItems: 'center',
     width: "85%",
-    height: "55%",
+    height: "57%",
     shadowColor: 'rgba(76, 78, 81, 0.2)',
     shadowOffset: {width: 24, height: 30},
     shadowOpacity: 0.2,
@@ -165,6 +193,10 @@ const styles = StyleSheet.create({
     width: "80%",
     height: 44,
     borderRadius: 100,
+    shadowColor: 'rgba(54, 56, 57, 0.2)',
+    shadowOffset: {width: 14, height: 10},
+    shadowOpacity: 0.2,
+    shadowRadius: 9,
   },
   otherSignIn: {
     flexDirection: 'row',
