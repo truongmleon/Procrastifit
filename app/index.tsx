@@ -1,7 +1,10 @@
 import { Image, StyleSheet, TextInput, View, StatusBar, Text, TouchableOpacity } from 'react-native';
 import React, { useState } from 'react';
+import { useRouter } from 'expo-router';
 import * as Haptics from 'expo-haptics';
 import * as AppleAuthentication from 'expo-apple-authentication';
+
+const router = useRouter();
 
 const AppleButton: React.FC = () => {
   return <AppleAuthentication.AppleAuthenticationButton
@@ -33,15 +36,17 @@ const AppleButton: React.FC = () => {
 }
 
 const regularSignIn = () => {
-    Haptics.selectionAsync()
+    Haptics.selectionAsync();
 }
 
 const forgotPassword = () => {
-    Haptics.selectionAsync()
+    Haptics.selectionAsync();
+    router.navigate('/loginredirects/forgot'); 
 }
 
 const signUp = () => {
-    Haptics.selectionAsync()
+    Haptics.selectionAsync();
+    router.navigate('/loginredirects/signup');
 }
 
 export default function App() {
