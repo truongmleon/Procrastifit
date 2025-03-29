@@ -4,8 +4,6 @@ import { useRouter } from 'expo-router';
 import * as Haptics from 'expo-haptics';
 import * as AppleAuthentication from 'expo-apple-authentication';
 
-const router = useRouter();
-
 const AppleButton: React.FC = () => {
   return <AppleAuthentication.AppleAuthenticationButton
     buttonType={AppleAuthentication.AppleAuthenticationButtonType.SIGN_IN}
@@ -39,17 +37,8 @@ const regularSignIn = () => {
     Haptics.selectionAsync();
 }
 
-const forgotPassword = () => {
-    Haptics.selectionAsync();
-    router.navigate('/loginredirects/forgot'); 
-}
-
-const signUp = () => {
-    Haptics.selectionAsync();
-    router.navigate('/loginredirects/signup');
-}
-
 export default function App() {
+  const router = useRouter();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
@@ -98,7 +87,10 @@ export default function App() {
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.button}
-        onPress={forgotPassword}
+        onPress={() => {
+          Haptics.selectionAsync();
+          router.navigate('/loginredirects/forgot'); 
+        }}
       >
         <Text style={styles.redirects}>Forgot Password?</Text>
       </TouchableOpacity>
@@ -115,13 +107,15 @@ export default function App() {
       </View>
       <AppleButton />
       </View>
-      <Text style={styles.signup}>New here? Whatever.
-        <TouchableOpacity
-        style={styles.button}
-        onPress={signUp}>
-          <Text style={styles.redirects}>Join and lock in.</Text>
-      </TouchableOpacity>
-      </Text>
+      <Text>New here? Whatever.</Text>
+  <Text
+    onPress={() => {
+      Haptics.selectionAsync();
+      router.navigate('/loginredirects/signup');
+    }}
+    style={styles.newUser}>
+    Join and lock in.
+  </Text>
     </View>
   );
 }
@@ -154,12 +148,17 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center', 
     backgroundColor: '#ecf0f1',
   },
   redirects: {
     color: "#007cce",
     textAlign: 'left',
+    width: "100%",
+  }, 
+  newUser: {
+    textAlign: 'center',
+    color: "#007cce",
   },
   signin: {
     width: "89%",
